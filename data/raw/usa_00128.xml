@@ -1,0 +1,3334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ipums-ddi-xslt.xsl"?>
+<codeBook xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" version="2.5" ID="ddi2-100503_usa_00128.dat-usa.ipums.org">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>Codebook for an IPUMS-USA Data Extract</titl>
+        <subTitl>DDI 2.5 metadata describing the extract file  'usa_00128.dat'</subTitl>
+        <IDNo>ddi2-100503_usa_00128.dat-usa.ipums.org</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">Minnesota Population Center</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="MPC" affiliation="University of Minnesota" role="Documentation">Minnesota Population Center</producer>
+        <prodDate date="2021-02-21">February 21, 2021</prodDate>
+        <prodPlac>Minnesota Population Center, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact affiliation="University of Minnesota" URI="http://pop.umn.edu">Minnesota Population Center</contact>
+      </distStmt>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>User Extract usa_00128.dat</titl>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">Minnesota Population Center</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="MPC" affiliation="University of Minnesota" role="Documentation">Minnesota Population Center</producer>
+        <prodDate date="2021-02-21">February 21, 2021</prodDate>
+        <prodPlac>Minnesota Population Center, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact affiliation="University of Minnesota" URI="http://pop.umn.edu">Minnesota Population Center</contact>
+      </distStmt>
+      <serStmt>
+        <serName abbr="usa">IPUMS USA</serName>
+        <serInfo>DOI:10.18128/D010.V11.0</serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2021-02-21"/>
+      </verStmt>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <topcClas vocab="IPUMS">Technical Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Geographic Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Group Quarters Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Dwelling Characteristic Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Technical Variables -- PERSON</topcClas>
+      </subject>
+      <sumDscr ID="sdatref-2624">
+        <timePrd event="single" date="2006">2006</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2626">
+        <timePrd event="single" date="2007">2007</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2632">
+        <timePrd event="single" date="2008">2008</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2637">
+        <timePrd event="single" date="2009">2009</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2650">
+        <timePrd event="single" date="2010">2010</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2656">
+        <timePrd event="single" date="2011">2011</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2666">
+        <timePrd event="single" date="2012">2012</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2673">
+        <timePrd event="single" date="2013">2013</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2680">
+        <timePrd event="single" date="2014">2014</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2690">
+        <timePrd event="single" date="2015">2015</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2695">
+        <timePrd event="single" date="2016">2016</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2700">
+        <timePrd event="single" date="2017">2017</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2706">
+        <timePrd event="single" date="2018">2018</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2710">
+        <timePrd event="single" date="2019">2019</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2006 ACS\n            Density of the full data file:  1.0%
+            Density of this extract: 1.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2007 ACS\n            Density of the full data file:  1.0%
+            Density of this extract: 1.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2008 ACS\n            Density of the full data file:  1.0%
+            Density of this extract: 1.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2009 ACS\n            Density of the full data file:  1.0%
+            Density of this extract: 1.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2010 ACS\n            Density of the full data file:  1.0%
+            Density of this extract: 1.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2011 ACS\n            Density of the full data file:  1.0%
+            Density of this extract: 1.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2012 ACS\n            Density of the full data file:  1.0%
+            Density of this extract: 1.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2013 ACS\n            Density of the full data file:  1.0%
+            Density of this extract: 1.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2014 ACS\n            Density of the full data file:  1.0%
+            Density of this extract: 1.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2015 ACS\n            Density of the full data file:  1.0%
+            Density of this extract: 1.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2016 ACS\n            Density of the full data file:  1.0%
+            Density of this extract: 1.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2017 ACS\n            Density of the full data file:  1.0%
+            Density of this extract: 1.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2018 ACS\n            Density of the full data file:  1.0%
+            Density of this extract: 1.0%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  2019 ACS\n            Density of the full data file:  1.0%
+            Density of this extract: 1.0%
+]]></notes>
+    </stdyInfo>
+    <dataAccs>
+      <useStmt>
+        <confDec required="no"><![CDATA[None]]></confDec>
+        <contact affiliation="Minnesota Population Center" URI="http://usa.ipums.org">IPUMS-USA</contact>
+        <citReq><![CDATA[Publications and research reports based on the IPUMS-USA database must cite it appropriately. The citation should include the following:
+
+Steven Ruggles,  Sarah Flood, Sophia Foster,  Ronald Goeken,  Jose Pacas, Megan Schouweiler and Matthew Sobek. IPUMS USA: Version 11.0  [dataset]. Minneapolis, MN: IPUMS, 2021. https://doi.org/10.18128/D010.V11.0
+
+The licensing agreement for use of IPUMS-USA data requires that users supply us with the title and full citation for any publications, research reports, or educational materials making use of the data or documentation. Please add your citation to the IPUMS bibliography at http://bibliography.ipums.org/.]]></citReq>
+        <conditions><![CDATA[Users of IPUMS-USA data must agree to abide by the conditions of use. A user's license is valid for one year and may be renewed.  Users must agree to the following conditions:
+
+(1) No fees may be charged for use or distribution of the data.
+
+(2) Cite IPUMS appropriately.  For information on proper citation,  refer to the citation requirement section of this DDI document.
+
+(3) Tell us about any work you do using the IPUMS.  Publications, research  reports, or presentations making use of IPUMS-USA should be added to our  Bibliography. Continued funding for the IPUMS depends on our ability to  show our sponsor agencies that researchers are using the data for productive  purposes.
+
+(4) The IPUMS cannot be used for genealogical research
+
+(5) It is difficult to use the IPUMS to study small geographic areas.  In the  IPUMS census samples for years 1940-present, no places having a population  of fewer than 100,000 persons can be identified.
+
+(6) Use it for GOOD -- never for EVIL.
+
+(7) Please notify ipums@umn.edu regarding errors in the data or documentation.]]></conditions>
+        <disclaimer>The user of the data acknowledges that the original collector of the data, the authorized distributor of the data, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <notes><![CDATA[User-provided description:  Replicate weights | vacant units | person & household | OR & WA | 2006-19 1-yr]]></notes>
+    <notes>This extract is a revision of the user's previous extract, number 127.</notes>
+  </stdyDscr>
+  <fileDscr ID="ExtractData">
+    <fileTxt>
+      <fileName>usa_00128.dat</fileName>
+      <fileCont>Microdata records</fileCont>
+      <fileStrc type="hierarchical">
+        <recGrp rectype="P" recidvar="RECTYPE" keyvar="YEAR DATANUM SERIAL">
+          <labl>Person Record</labl>
+        </recGrp>
+        <recGrp rectype="H" recidvar="RECTYPE">
+          <labl>Household Record</labl>
+        </recGrp>
+      </fileStrc>
+      <fileType charset="ISO-8859-1">ISO-8859-1 data file</fileType>
+      <format>fixed length fields</format>
+      <filePlac>Minnesota Population Center, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</filePlac>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <var ID="RECTYPE" files="ExtractData" name="RECTYPE" intrvl="contin" dcml="0" rectype="H P">
+      <location StartPos="1" width="1" EndPos="1"/>
+      <labl>Record type</labl>
+      <txt><![CDATA[RECTYPE assigns all household records the alphabetic string "H." This allows users to discriminate between household and person records; the latter are assigned the string "P" in the person-record variable RECTYPEP. For non-vacant households, each household record is followed by one or more person records. Data at the household level pertain to each person in the household.]]></txt>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Household</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Person</labl>
+      </catgry>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="character"/>
+    </var>
+    <var ID="YEAR" files="ExtractData" name="YEAR" intrvl="discrete" dcml="0" rectype="H P">
+      <location StartPos="2" width="4" EndPos="5"/>
+      <labl>Census year</labl>
+      <txt><![CDATA[YEAR reports the four-digit year when the household was enumerated or included in the census, the ACS, and the PRCS.
+
+For the multi-year ACS/PRCS samples, YEAR indicates the last year of data included (e.g., 2007 for the 2005-2007 3-year ACS/PRCS; 2008 for the 2006-2008 3-year ACS/PRCS; and so on).  For the actual year of survey in these multi-year data, see MULTYEAR.]]></txt>
+      <catgry>
+        <catValu>1850</catValu>
+        <labl>1850</labl>
+      </catgry>
+      <catgry>
+        <catValu>1860</catValu>
+        <labl>1860</labl>
+      </catgry>
+      <catgry>
+        <catValu>1870</catValu>
+        <labl>1870</labl>
+      </catgry>
+      <catgry>
+        <catValu>1880</catValu>
+        <labl>1880</labl>
+      </catgry>
+      <catgry>
+        <catValu>1900</catValu>
+        <labl>1900</labl>
+      </catgry>
+      <catgry>
+        <catValu>1910</catValu>
+        <labl>1910</labl>
+      </catgry>
+      <catgry>
+        <catValu>1920</catValu>
+        <labl>1920</labl>
+      </catgry>
+      <catgry>
+        <catValu>1930</catValu>
+        <labl>1930</labl>
+      </catgry>
+      <catgry>
+        <catValu>1940</catValu>
+        <labl>1940</labl>
+      </catgry>
+      <catgry>
+        <catValu>1950</catValu>
+        <labl>1950</labl>
+      </catgry>
+      <catgry>
+        <catValu>1960</catValu>
+        <labl>1960</labl>
+      </catgry>
+      <catgry>
+        <catValu>1970</catValu>
+        <labl>1970</labl>
+      </catgry>
+      <catgry>
+        <catValu>1980</catValu>
+        <labl>1980</labl>
+      </catgry>
+      <catgry>
+        <catValu>1990</catValu>
+        <labl>1990</labl>
+      </catgry>
+      <catgry>
+        <catValu>2000</catValu>
+        <labl>2000</labl>
+      </catgry>
+      <catgry>
+        <catValu>2001</catValu>
+        <labl>2001</labl>
+      </catgry>
+      <catgry>
+        <catValu>2002</catValu>
+        <labl>2002</labl>
+      </catgry>
+      <catgry>
+        <catValu>2003</catValu>
+        <labl>2003</labl>
+      </catgry>
+      <catgry>
+        <catValu>2004</catValu>
+        <labl>2004</labl>
+      </catgry>
+      <catgry>
+        <catValu>2005</catValu>
+        <labl>2005</labl>
+      </catgry>
+      <catgry>
+        <catValu>2006</catValu>
+        <labl>2006</labl>
+      </catgry>
+      <catgry>
+        <catValu>2007</catValu>
+        <labl>2007</labl>
+      </catgry>
+      <catgry>
+        <catValu>2008</catValu>
+        <labl>2008</labl>
+      </catgry>
+      <catgry>
+        <catValu>2009</catValu>
+        <labl>2009</labl>
+      </catgry>
+      <catgry>
+        <catValu>2010</catValu>
+        <labl>2010</labl>
+      </catgry>
+      <catgry>
+        <catValu>2011</catValu>
+        <labl>2011</labl>
+      </catgry>
+      <catgry>
+        <catValu>2012</catValu>
+        <labl>2012</labl>
+      </catgry>
+      <catgry>
+        <catValu>2013</catValu>
+        <labl>2013</labl>
+      </catgry>
+      <catgry>
+        <catValu>2014</catValu>
+        <labl>2014</labl>
+      </catgry>
+      <catgry>
+        <catValu>2015</catValu>
+        <labl>2015</labl>
+      </catgry>
+      <catgry>
+        <catValu>2016</catValu>
+        <labl>2016</labl>
+      </catgry>
+      <catgry>
+        <catValu>2017</catValu>
+        <labl>2017</labl>
+      </catgry>
+      <catgry>
+        <catValu>2018</catValu>
+        <labl>2018</labl>
+      </catgry>
+      <catgry>
+        <catValu>2019</catValu>
+        <labl>2019</labl>
+      </catgry>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="SAMPLE" files="ExtractData" name="SAMPLE" intrvl="discrete" dcml="0" rectype="H P">
+      <location StartPos="6" width="6" EndPos="11"/>
+      <labl>IPUMS sample identifier</labl>
+      <txt><![CDATA[SAMPLE identifies the IPUMS sample from which the case is drawn. Each sample receives a unique 6-digit code. The codes are structured as follows:
+
+
+The first four digits are the year of the census/survey. 
+
+
+
+The next two digits identify the sample within the year. 
+
+
+For most censuses, IPUMS has multiple datasets which were constructed using different sampling techniques (i.e. size/demographic of the sample population, geographic coverage level or location, or duration of the sampling period for the ACS/PRCS samples).  
+
+The availability table for each variable indicates whether that variable is available in only certain samples for a given year. For further discussion of sample differences, see "Sample Designs." [URL omitted from DDI.].
+
+Note: SAMPLE replaces DATANUM. Though the last two digits in SAMPLE do not correlate exactly with the now-deprecated DATANUM, the variable serves the same purpose of assigning a unique id to all cases that belong to the same dataset.]]></txt>
+      <catgry>
+        <catValu>185001</catValu>
+        <labl>1850 1%</labl>
+      </catgry>
+      <catgry>
+        <catValu>185002</catValu>
+        <labl>1850 100% database</labl>
+      </catgry>
+      <catgry>
+        <catValu>186001</catValu>
+        <labl>1860 1%</labl>
+      </catgry>
+      <catgry>
+        <catValu>186002</catValu>
+        <labl>1860 1% sample with black oversample</labl>
+      </catgry>
+      <catgry>
+        <catValu>186003</catValu>
+        <labl>1860 100% database</labl>
+      </catgry>
+      <catgry>
+        <catValu>187001</catValu>
+        <labl>1870 1%</labl>
+      </catgry>
+      <catgry>
+        <catValu>187002</catValu>
+        <labl>1870 1% sample with black oversample</labl>
+      </catgry>
+      <catgry>
+        <catValu>187003</catValu>
+        <labl>1870 100% database</labl>
+      </catgry>
+      <catgry>
+        <catValu>188001</catValu>
+        <labl>1880 1%</labl>
+      </catgry>
+      <catgry>
+        <catValu>188002</catValu>
+        <labl>1880 10%</labl>
+      </catgry>
+      <catgry>
+        <catValu>188003</catValu>
+        <labl>1880 100% database</labl>
+      </catgry>
+      <catgry>
+        <catValu>190001</catValu>
+        <labl>1900 5%</labl>
+      </catgry>
+      <catgry>
+        <catValu>190002</catValu>
+        <labl>1900 1%</labl>
+      </catgry>
+      <catgry>
+        <catValu>190003</catValu>
+        <labl>1900 1% sample with oversamples</labl>
+      </catgry>
+      <catgry>
+        <catValu>190004</catValu>
+        <labl>1900 100% database</labl>
+      </catgry>
+      <catgry>
+        <catValu>191001</catValu>
+        <labl>1910 Puerto Rico</labl>
+      </catgry>
+      <catgry>
+        <catValu>191002</catValu>
+        <labl>1910 1%</labl>
+      </catgry>
+      <catgry>
+        <catValu>191003</catValu>
+        <labl>1910 1.4% sample with oversamples</labl>
+      </catgry>
+      <catgry>
+        <catValu>191004</catValu>
+        <labl>1910 100% database</labl>
+      </catgry>
+      <catgry>
+        <catValu>192001</catValu>
+        <labl>1920 1%</labl>
+      </catgry>
+      <catgry>
+        <catValu>192002</catValu>
+        <labl>1920 Puerto Rico sample</labl>
+      </catgry>
+      <catgry>
+        <catValu>192003</catValu>
+        <labl>1920 100% database</labl>
+      </catgry>
+      <catgry>
+        <catValu>193001</catValu>
+        <labl>1930 1%</labl>
+      </catgry>
+      <catgry>
+        <catValu>193002</catValu>
+        <labl>1930 5%</labl>
+      </catgry>
+      <catgry>
+        <catValu>193003</catValu>
+        <labl>1930 Puerto Rico</labl>
+      </catgry>
+      <catgry>
+        <catValu>193004</catValu>
+        <labl>1930 100% database</labl>
+      </catgry>
+      <catgry>
+        <catValu>194001</catValu>
+        <labl>1940 1%</labl>
+      </catgry>
+      <catgry>
+        <catValu>194002</catValu>
+        <labl>1940 100% database</labl>
+      </catgry>
+      <catgry>
+        <catValu>195001</catValu>
+        <labl>1950 1%</labl>
+      </catgry>
+      <catgry>
+        <catValu>196001</catValu>
+        <labl>1960 1%</labl>
+      </catgry>
+      <catgry>
+        <catValu>196002</catValu>
+        <labl>1960 5%</labl>
+      </catgry>
+      <catgry>
+        <catValu>197001</catValu>
+        <labl>1970 Form 1 State</labl>
+      </catgry>
+      <catgry>
+        <catValu>197002</catValu>
+        <labl>1970 Form 2 State</labl>
+      </catgry>
+      <catgry>
+        <catValu>197003</catValu>
+        <labl>1970 Form 1 Metro</labl>
+      </catgry>
+      <catgry>
+        <catValu>197004</catValu>
+        <labl>1970 Form 2 Metro</labl>
+      </catgry>
+      <catgry>
+        <catValu>197005</catValu>
+        <labl>1970 Form 1 Neighborhood</labl>
+      </catgry>
+      <catgry>
+        <catValu>197006</catValu>
+        <labl>1970 Form 2 Neighborhood</labl>
+      </catgry>
+      <catgry>
+        <catValu>197007</catValu>
+        <labl>1970 Puerto Rico State</labl>
+      </catgry>
+      <catgry>
+        <catValu>197008</catValu>
+        <labl>1970 Puerto Rico Municipio</labl>
+      </catgry>
+      <catgry>
+        <catValu>197009</catValu>
+        <labl>1970 Puerto Rico Neighborhood</labl>
+      </catgry>
+      <catgry>
+        <catValu>198001</catValu>
+        <labl>1980 5%</labl>
+      </catgry>
+      <catgry>
+        <catValu>198002</catValu>
+        <labl>1980 1%</labl>
+      </catgry>
+      <catgry>
+        <catValu>198003</catValu>
+        <labl>1980 Urban/Rural</labl>
+      </catgry>
+      <catgry>
+        <catValu>198004</catValu>
+        <labl>1980 Labor Market Area</labl>
+      </catgry>
+      <catgry>
+        <catValu>198005</catValu>
+        <labl>1980 Detailed metro/non-metro</labl>
+      </catgry>
+      <catgry>
+        <catValu>198006</catValu>
+        <labl>1980 Puerto Rico 5%</labl>
+      </catgry>
+      <catgry>
+        <catValu>198007</catValu>
+        <labl>1980 Puerto Rico 1%</labl>
+      </catgry>
+      <catgry>
+        <catValu>199001</catValu>
+        <labl>1990 5%</labl>
+      </catgry>
+      <catgry>
+        <catValu>199002</catValu>
+        <labl>1990 1%</labl>
+      </catgry>
+      <catgry>
+        <catValu>199003</catValu>
+        <labl>1990 Unweighted 1%</labl>
+      </catgry>
+      <catgry>
+        <catValu>199004</catValu>
+        <labl>1990 Elderly</labl>
+      </catgry>
+      <catgry>
+        <catValu>199005</catValu>
+        <labl>1990 Labor Market Area</labl>
+      </catgry>
+      <catgry>
+        <catValu>199006</catValu>
+        <labl>1990 Puerto Rico 5%</labl>
+      </catgry>
+      <catgry>
+        <catValu>199007</catValu>
+        <labl>1990 Puerto Rico 1%</labl>
+      </catgry>
+      <catgry>
+        <catValu>200001</catValu>
+        <labl>2000 5%</labl>
+      </catgry>
+      <catgry>
+        <catValu>200002</catValu>
+        <labl>2000 1% sample (old version)</labl>
+      </catgry>
+      <catgry>
+        <catValu>200003</catValu>
+        <labl>2000 Unweighted 1%</labl>
+      </catgry>
+      <catgry>
+        <catValu>200004</catValu>
+        <labl>2000 ACS</labl>
+      </catgry>
+      <catgry>
+        <catValu>200005</catValu>
+        <labl>2000 Puerto Rico 5%</labl>
+      </catgry>
+      <catgry>
+        <catValu>200006</catValu>
+        <labl>2000 Puerto Rico 1% sample (old version)</labl>
+      </catgry>
+      <catgry>
+        <catValu>200007</catValu>
+        <labl>2000 1%</labl>
+      </catgry>
+      <catgry>
+        <catValu>200008</catValu>
+        <labl>2000 Puerto Rico 1%</labl>
+      </catgry>
+      <catgry>
+        <catValu>200101</catValu>
+        <labl>2001 ACS</labl>
+      </catgry>
+      <catgry>
+        <catValu>200201</catValu>
+        <labl>2002 ACS</labl>
+      </catgry>
+      <catgry>
+        <catValu>200301</catValu>
+        <labl>2003 ACS</labl>
+      </catgry>
+      <catgry>
+        <catValu>200401</catValu>
+        <labl>2004 ACS</labl>
+      </catgry>
+      <catgry>
+        <catValu>200501</catValu>
+        <labl>2005 ACS</labl>
+      </catgry>
+      <catgry>
+        <catValu>200502</catValu>
+        <labl>2005 PRCS</labl>
+      </catgry>
+      <catgry>
+        <catValu>200601</catValu>
+        <labl>2006 ACS</labl>
+      </catgry>
+      <catgry>
+        <catValu>200602</catValu>
+        <labl>2006 PRCS</labl>
+      </catgry>
+      <catgry>
+        <catValu>200701</catValu>
+        <labl>2007 ACS</labl>
+      </catgry>
+      <catgry>
+        <catValu>200702</catValu>
+        <labl>2007 PRCS</labl>
+      </catgry>
+      <catgry>
+        <catValu>200703</catValu>
+        <labl>2005-2007, ACS 3-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>200704</catValu>
+        <labl>2005-2007, PRCS 3-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>200801</catValu>
+        <labl>2008 ACS</labl>
+      </catgry>
+      <catgry>
+        <catValu>200802</catValu>
+        <labl>2008 PRCS</labl>
+      </catgry>
+      <catgry>
+        <catValu>200803</catValu>
+        <labl>2006-2008, ACS 3-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>200804</catValu>
+        <labl>2006-2008, PRCS 3-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>200901</catValu>
+        <labl>2009 ACS</labl>
+      </catgry>
+      <catgry>
+        <catValu>200902</catValu>
+        <labl>2009 PRCS</labl>
+      </catgry>
+      <catgry>
+        <catValu>200903</catValu>
+        <labl>2007-2009, ACS 3-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>200904</catValu>
+        <labl>2007-2009, PRCS 3-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>200905</catValu>
+        <labl>2005-2009, ACS 5-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>200906</catValu>
+        <labl>2005-2009, PRCS 5-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201001</catValu>
+        <labl>2010 ACS</labl>
+      </catgry>
+      <catgry>
+        <catValu>201002</catValu>
+        <labl>2010 PRCS</labl>
+      </catgry>
+      <catgry>
+        <catValu>201003</catValu>
+        <labl>2008-2010, ACS 3-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201004</catValu>
+        <labl>2008-2010, PRCS 3-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201005</catValu>
+        <labl>2006-2010, ACS 5-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201006</catValu>
+        <labl>2006-2010, PRCS 5-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201007</catValu>
+        <labl>2010 10%</labl>
+      </catgry>
+      <catgry>
+        <catValu>201008</catValu>
+        <labl>2010 Puerto Rico 10%</labl>
+      </catgry>
+      <catgry>
+        <catValu>201101</catValu>
+        <labl>2011 ACS</labl>
+      </catgry>
+      <catgry>
+        <catValu>201102</catValu>
+        <labl>2011 PRCS</labl>
+      </catgry>
+      <catgry>
+        <catValu>201103</catValu>
+        <labl>2009-2011, ACS 3-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201104</catValu>
+        <labl>2009-2011, PRCS 3-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201105</catValu>
+        <labl>2007-2011, ACS 5-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201106</catValu>
+        <labl>2007-2011, PRCS 5-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201201</catValu>
+        <labl>2012 ACS</labl>
+      </catgry>
+      <catgry>
+        <catValu>201202</catValu>
+        <labl>2012 PRCS</labl>
+      </catgry>
+      <catgry>
+        <catValu>201203</catValu>
+        <labl>2010-2012, ACS 3-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201204</catValu>
+        <labl>2010-2012, PRCS 3-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201205</catValu>
+        <labl>2008-2012, ACS 5-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201206</catValu>
+        <labl>2008-2012, PRCS 5-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201301</catValu>
+        <labl>2013 ACS</labl>
+      </catgry>
+      <catgry>
+        <catValu>201302</catValu>
+        <labl>2013 PRCS</labl>
+      </catgry>
+      <catgry>
+        <catValu>201303</catValu>
+        <labl>2011-2013, ACS 3-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201304</catValu>
+        <labl>2011-2013, PRCS 3-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201305</catValu>
+        <labl>2009-2013, ACS 5-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201306</catValu>
+        <labl>2009-2013, PRCS 5-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201401</catValu>
+        <labl>2014 ACS</labl>
+      </catgry>
+      <catgry>
+        <catValu>201402</catValu>
+        <labl>2014 PRCS</labl>
+      </catgry>
+      <catgry>
+        <catValu>201403</catValu>
+        <labl>2010-2014, ACS 5-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201404</catValu>
+        <labl>2010-2014, PRCS 5-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201501</catValu>
+        <labl>2015 ACS</labl>
+      </catgry>
+      <catgry>
+        <catValu>201502</catValu>
+        <labl>2015 PRCS</labl>
+      </catgry>
+      <catgry>
+        <catValu>201503</catValu>
+        <labl>2011-2015, ACS 5-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201504</catValu>
+        <labl>2011-2015, PRCS 5-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201601</catValu>
+        <labl>2016 ACS</labl>
+      </catgry>
+      <catgry>
+        <catValu>201602</catValu>
+        <labl>2016 PRCS</labl>
+      </catgry>
+      <catgry>
+        <catValu>201603</catValu>
+        <labl>2012-2016, ACS 5-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201604</catValu>
+        <labl>2012-2016, PRCS 5-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201701</catValu>
+        <labl>2017 ACS</labl>
+      </catgry>
+      <catgry>
+        <catValu>201702</catValu>
+        <labl>2017 PRCS</labl>
+      </catgry>
+      <catgry>
+        <catValu>201703</catValu>
+        <labl>2013-2017, ACS 5-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201704</catValu>
+        <labl>2013-2017, PRCS 5-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201801</catValu>
+        <labl>2018 ACS</labl>
+      </catgry>
+      <catgry>
+        <catValu>201802</catValu>
+        <labl>2018 PRCS</labl>
+      </catgry>
+      <catgry>
+        <catValu>201803</catValu>
+        <labl>2014-2018, ACS 5-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201804</catValu>
+        <labl>2014-2018, PRCS 5-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201901</catValu>
+        <labl>2019 ACS</labl>
+      </catgry>
+      <catgry>
+        <catValu>201902</catValu>
+        <labl>2019 PRCS</labl>
+      </catgry>
+      <catgry>
+        <catValu>201903</catValu>
+        <labl>2015-2019, ACS 5-year</labl>
+      </catgry>
+      <catgry>
+        <catValu>201904</catValu>
+        <labl>2015-2019, PRCS 5-year</labl>
+      </catgry>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="SERIAL" files="ExtractData" name="SERIAL" intrvl="contin" dcml="0" rectype="H P">
+      <location StartPos="12" width="8" EndPos="19"/>
+      <labl>Household serial number</labl>
+      <txt><![CDATA[SERIAL is an identifying number unique to each household record in a given sample. All person records are assigned the same serial number as the household record that they follow. (Person records also have their own unique identifiers - see PERNUM.) A combination of SAMPLE and SERIAL provides a unique identifier for every household in the IPUMS; the combination of SAMPLE, SERIAL, and PERNUM uniquely identifies every person in the database.
+
+For 1850-1930, households that are part of a multi-household dwelling can be identified by using the DWELLING and DWSEQ variables. See "Sample Designs" [URL omitted from DDI.] for further discussion of sampling from within multi-household dwellings.]]></txt>
+      <codInstr><![CDATA[
+SERIAL is an 8-digit numeric variable which assigns a unique identification number to each household record in a given sample (See PERNUM for the analogous person record identifier). A combination of SAMPLE and SERIAL provides a unique identifier for every household in the IPUMS; the combination of SAMPLE, SERIAL, and PERNUM uniquely identifies every person in the database. SERIAL specific variable codes for missing, edited, or unidentified observations, observations not applicable (N/A), observations not in universe (NIU), top and bottom value coding, etc. are provided below if applicable by Census year (and data sample if specified).
+
+SERIAL Specific Variable Codes]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="CBSERIAL" files="ExtractData" name="CBSERIAL" intrvl="contin" dcml="0" rectype="H P">
+      <location StartPos="20" width="13" EndPos="32"/>
+      <labl>Original Census Bureau household serial number</labl>
+      <txt><![CDATA[CBSERIAL is the unique, original identification number assigned to each household record in a given sample by the Census Bureau. All person records are assigned the same serial number as the household record that they follow. (The original person record unique identification numbers assigned by the Census Bureau are provided by CBPERNUM.) 
+
+A combination of SAMPLE and CBSERIAL provides a unique identifier for every household in the IPUMS; the combination of SAMPLE, CBSERIAL, and CBPERNUM uniquely identifies every person in the database.]]></txt>
+      <codInstr><![CDATA[
+CBSERIAL is an 8-digit numeric variable which assigns a unique identification number to each household record in a given sample (See  CBPERNUM  for the analogous person record identifier). CBSERIAL specific variable codes for missing, edited, or unidentified observations, observations not applicable (N/A), observations not in universe (NIU), top and bottom value coding, etc. are provided below if applicable by Census year (and data sample if specified).
+
+CBSERIAL Specific Variable Codes]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="HHWT" files="ExtractData" name="HHWT" intrvl="contin" dcml="2" rectype="H">
+      <location StartPos="33" width="10" EndPos="42"/>
+      <labl>Household weight</labl>
+      <txt><![CDATA[HHWT indicates how many households in the U.S. population are represented by a given household in an IPUMS sample. 
+
+It is generally a good idea to use HHWT when conducting a household-level analysis of any IPUMS sample. The use of HHWT is optional when analyzing one of the "flat" or unweighted IPUMS samples. Flat IPUMS samples include the 1% samples from 1850-1930, all samples from 1960, 1970, and 1980, the 1% unweighted samples from 1990 and 2000, the 10% 2010 sample, and any of the full count 100% census datasets. HHWT must be used to obtain nationally representative statistics for household-level analyses of any sample other than those.
+
+Users should also be sure to select one person (e.g., PERNUM = 1) to represent the entire household.
+
+For further explanation of the sample weights, see "Sample Designs" [URL omitted from DDI.] and "Sample Weights" [URL omitted from DDI.]. See also PERWT for a corresponding variable at the person level, and SLWT for a weight variable used with sample-line records in 1940 1% and 1950.]]></txt>
+      <codInstr><![CDATA[
+HHWT is a 6-digit numeric variable which indicates how many households in the U.S. population are represented by a given household in an IPUMS sample and has two implied decimals. For example, a HHWT value of 010461 should be interpreted as 104.61. HHWT specific variable codes for missing, edited, or unidentified observations, observations not applicable (N/A), observations not in universe (NIU), top and bottom value coding, etc. are provided below if applicable by Census year (and data sample if specified).
+
+User Note: Users should also be sure to select one person (e.g., PERNUM = 1) to represent the entire household when using HHWT.
+
+HHWT Specific Variable Codes]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT" files="ExtractData" name="REPWT" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="43" width="1" EndPos="43"/>
+      <labl>Household replicate weights [80 variables]</labl>
+      <txt><![CDATA[REPWT provides 80 separate household-level weights that allow users to generate empirically derived standard errors. Person-level replicate weights are available in REPWTP.  
+
+More information about replicate weights is available on the IPUMS-USA replicate weights FAQ page [URL omitted from DDI.], in the 2005 ACS PUMS Accuracy Statement [URL omitted from DDI.], and in this Census Bureau document [URL omitted from DDI.] written for the Current Population Survey.
+
+Calculating the standard error of an estimate enables the construction of a confidence interval around the sample estimate of interest and may also be used in hypothesis testing. In theory, the standard error of an estimate measures the variation of a statistic across multiple samples of a given population. Researchers can use replicate weights to mirror this theoretical approach when only sample data is available, and the resulting standard errors have a higher degree of precision than standard asymptotic standard errors. 
+
+The 2005-onward ACS and PRCS samples contain eighty replicate weights at the household level (variables named REPWT1 through REPWT80) and eighty at the person level (variables named REPWTP1 through REPWTP80). The Census Bureau produced these weights by using what is known as the successive difference replication (SDR) method.  This involves repeated implementations of the initial (full-sample) weighting algorithm, such that full information about the ACS and PRCS samples are available in the replicate weights.  Nevertheless, users should use these replicate weights only for generating variance estimates, not for obtaining unique parameter estimates.
+
+User Note: The successive difference replication approach (SDR) is different from other methods for creating replicate weights such as balanced repeated replication (BRR) and jackknife estimation, and standard statistical software packages have no built-in method to handle them. However, Stata's jackknife standard error program can be adapted to calculate replicate standard errors for CPS data; see the IPUMS-USA replicate weights FAQ page [URL omitted from DDI.] for details.
+
+Additionally, it is possible for replicate weights to take negative values for certain cases; again, users should use these weights only for variance estimation purposes and not to obtain independent estimates.]]></txt>
+      <codInstr><![CDATA[
+When REPWT is selected for data extraction, 80 replicate weights, REPWT1-REPWT80 are included in the data extract. REPWT1-REPWT80 are 4-digit numeric variables used to empirically derive standard errors. Selecting replicate weights will dramatically increase the size and processing time of extracts; users should request them only if they plan to use them. REPWT specific variable codes for missing, edited, or unidentified observations, observations not applicable (N/A), observations not in universe (NIU), top and bottom value coding, etc. are provided below if applicable by Census year (and data sample if specified).
+
+REPWT Specific Variable Codes]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="CLUSTER" files="ExtractData" name="CLUSTER" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="44" width="13" EndPos="56"/>
+      <labl>Household cluster for variance estimation</labl>
+      <txt><![CDATA[CLUSTER is designed for use with STRATA in Taylor series linear approximation for correction of complex sample design characteristics. See the STRATA variable description for more details.]]></txt>
+      <codInstr><![CDATA[
+CLUSTER is an 11-digit numeric variable designed for use with STRATA in Taylor series linear approximation for correction of complex sample design characteristics (See the Description of STRATA for more details). CLUSTER specific variable codes for missing, edited, or unidentified observations, observations not applicable (N/A), observations not in universe (NIU), top and bottom value coding, etc. are provided below if applicable by Census year (and data sample if specified).
+
+CLUSTER Specific Variable Codes]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="STATEFIP" files="ExtractData" name="STATEFIP" intrvl="discrete" dcml="0" rectype="H">
+      <location StartPos="57" width="2" EndPos="58"/>
+      <labl>State (FIPS code)</labl>
+      <txt><![CDATA[STATEFIP reports the state in which the household was located, using the Federal Information Processing Standards (FIPS) coding scheme, which orders the states alphabetically.
+
+In the 1980 Urban/Rural sample, STATEFIP identifies state groups that are not available in STATEICP; these state groups (codes 61-68) are only available for that particular sample. 
+
+See "Geographic Coding and Comparability" [URL omitted from DDI.] for more information on the geographic detail available in particular samples.]]></txt>
+      <catgry>
+        <catValu>01</catValu>
+        <labl>Alabama</labl>
+      </catgry>
+      <catgry>
+        <catValu>02</catValu>
+        <labl>Alaska</labl>
+      </catgry>
+      <catgry>
+        <catValu>04</catValu>
+        <labl>Arizona</labl>
+      </catgry>
+      <catgry>
+        <catValu>05</catValu>
+        <labl>Arkansas</labl>
+      </catgry>
+      <catgry>
+        <catValu>06</catValu>
+        <labl>California</labl>
+      </catgry>
+      <catgry>
+        <catValu>08</catValu>
+        <labl>Colorado</labl>
+      </catgry>
+      <catgry>
+        <catValu>09</catValu>
+        <labl>Connecticut</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Delaware</labl>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>District of Columbia</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Florida</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>Georgia</labl>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>Hawaii</labl>
+      </catgry>
+      <catgry>
+        <catValu>16</catValu>
+        <labl>Idaho</labl>
+      </catgry>
+      <catgry>
+        <catValu>17</catValu>
+        <labl>Illinois</labl>
+      </catgry>
+      <catgry>
+        <catValu>18</catValu>
+        <labl>Indiana</labl>
+      </catgry>
+      <catgry>
+        <catValu>19</catValu>
+        <labl>Iowa</labl>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>Kansas</labl>
+      </catgry>
+      <catgry>
+        <catValu>21</catValu>
+        <labl>Kentucky</labl>
+      </catgry>
+      <catgry>
+        <catValu>22</catValu>
+        <labl>Louisiana</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>Maine</labl>
+      </catgry>
+      <catgry>
+        <catValu>24</catValu>
+        <labl>Maryland</labl>
+      </catgry>
+      <catgry>
+        <catValu>25</catValu>
+        <labl>Massachusetts</labl>
+      </catgry>
+      <catgry>
+        <catValu>26</catValu>
+        <labl>Michigan</labl>
+      </catgry>
+      <catgry>
+        <catValu>27</catValu>
+        <labl>Minnesota</labl>
+      </catgry>
+      <catgry>
+        <catValu>28</catValu>
+        <labl>Mississippi</labl>
+      </catgry>
+      <catgry>
+        <catValu>29</catValu>
+        <labl>Missouri</labl>
+      </catgry>
+      <catgry>
+        <catValu>30</catValu>
+        <labl>Montana</labl>
+      </catgry>
+      <catgry>
+        <catValu>31</catValu>
+        <labl>Nebraska</labl>
+      </catgry>
+      <catgry>
+        <catValu>32</catValu>
+        <labl>Nevada</labl>
+      </catgry>
+      <catgry>
+        <catValu>33</catValu>
+        <labl>New Hampshire</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>New Jersey</labl>
+      </catgry>
+      <catgry>
+        <catValu>35</catValu>
+        <labl>New Mexico</labl>
+      </catgry>
+      <catgry>
+        <catValu>36</catValu>
+        <labl>New York</labl>
+      </catgry>
+      <catgry>
+        <catValu>37</catValu>
+        <labl>North Carolina</labl>
+      </catgry>
+      <catgry>
+        <catValu>38</catValu>
+        <labl>North Dakota</labl>
+      </catgry>
+      <catgry>
+        <catValu>39</catValu>
+        <labl>Ohio</labl>
+      </catgry>
+      <catgry>
+        <catValu>40</catValu>
+        <labl>Oklahoma</labl>
+      </catgry>
+      <catgry>
+        <catValu>41</catValu>
+        <labl>Oregon</labl>
+      </catgry>
+      <catgry>
+        <catValu>42</catValu>
+        <labl>Pennsylvania</labl>
+      </catgry>
+      <catgry>
+        <catValu>44</catValu>
+        <labl>Rhode Island</labl>
+      </catgry>
+      <catgry>
+        <catValu>45</catValu>
+        <labl>South Carolina</labl>
+      </catgry>
+      <catgry>
+        <catValu>46</catValu>
+        <labl>South Dakota</labl>
+      </catgry>
+      <catgry>
+        <catValu>47</catValu>
+        <labl>Tennessee</labl>
+      </catgry>
+      <catgry>
+        <catValu>48</catValu>
+        <labl>Texas</labl>
+      </catgry>
+      <catgry>
+        <catValu>49</catValu>
+        <labl>Utah</labl>
+      </catgry>
+      <catgry>
+        <catValu>50</catValu>
+        <labl>Vermont</labl>
+      </catgry>
+      <catgry>
+        <catValu>51</catValu>
+        <labl>Virginia</labl>
+      </catgry>
+      <catgry>
+        <catValu>53</catValu>
+        <labl>Washington</labl>
+      </catgry>
+      <catgry>
+        <catValu>54</catValu>
+        <labl>West Virginia</labl>
+      </catgry>
+      <catgry>
+        <catValu>55</catValu>
+        <labl>Wisconsin</labl>
+      </catgry>
+      <catgry>
+        <catValu>56</catValu>
+        <labl>Wyoming</labl>
+      </catgry>
+      <catgry>
+        <catValu>61</catValu>
+        <labl>Maine-New Hampshire-Vermont</labl>
+      </catgry>
+      <catgry>
+        <catValu>62</catValu>
+        <labl>Massachusetts-Rhode Island</labl>
+      </catgry>
+      <catgry>
+        <catValu>63</catValu>
+        <labl>Minnesota-Iowa-Missouri-Kansas-Nebraska-S.Dakota-N.Dakota</labl>
+      </catgry>
+      <catgry>
+        <catValu>64</catValu>
+        <labl>Maryland-Delaware</labl>
+      </catgry>
+      <catgry>
+        <catValu>65</catValu>
+        <labl>Montana-Idaho-Wyoming</labl>
+      </catgry>
+      <catgry>
+        <catValu>66</catValu>
+        <labl>Utah-Nevada</labl>
+      </catgry>
+      <catgry>
+        <catValu>67</catValu>
+        <labl>Arizona-New Mexico</labl>
+      </catgry>
+      <catgry>
+        <catValu>68</catValu>
+        <labl>Alaska-Hawaii</labl>
+      </catgry>
+      <catgry>
+        <catValu>72</catValu>
+        <labl>Puerto Rico</labl>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>Military/Mil. Reservation</labl>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>State not identified</labl>
+      </catgry>
+      <concept vocab="IPUMS">Geographic Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+      <notes>Case selections:  41 Oregon, 53 Washington</notes>
+    </var>
+    <var ID="MET2013" files="ExtractData" name="MET2013" intrvl="discrete" dcml="0" rectype="H">
+      <location StartPos="59" width="5" EndPos="63"/>
+      <labl>Metropolitan area (2013 OMB delineations)</labl>
+      <txt><![CDATA[A metropolitan area, or metro area, is a region consisting of a large urban core together with surrounding communities that have a high degree of economic and social integration with the urban core.
+
+MET2013 identifies metro areas of residence using the 2013 definitions for metropolitan statistical areas (MSAs) from the U.S. Office of Management and Budget (OMB). The 2013 MSAs are the first to be based on 2010 standards and 2010 census data.
+
+MET2013 is available only for 2000 and later samples. Another variable, METAREA, identifies metro areas for earlier samples. Both variables are available for samples from 2000 through 2011. The Comparability section [URL omitted from DDI.] summarizes differences between the two variables.
+
+Inexact Correspondence with Official Delineations
+Since 1990, the only sub-state-level geographic information available in census PUMS data is for PUMAs, areas which occasionally straddle official metro area boundaries. Given this limitation, MET2013 cannot identify the exact set of households residing in each metro area.
+
+The protocol used by MET2013 is to identify the metro area in which the majority of each PUMA's population resided. If MET2013 identifies a metro area for a given household, it indicates that, for the PUMA in which the household resided, a majority of the PUMA's 2010 population resided in the identified metro area.
+
+Match Errors and Code Suppression
+MET2013's code assignment protocol yields errors of omission (residents of a MSA who are not identified as residents) and errors of commission (non-residents who are identified as residents). PUMAs often nest well within metro area boundaries, resulting in small match errors, if any. For many metro areas, however, especially smaller metro areas, the intersecting PUMAs are a poor match.
+
+As an index of mismatch, IPUMS uses the sum of percent omission error (the portion of an MSA's population residing in excluded PUMAs) and percent commission error (the portion of the population in associated PUMAs that did not reside in the MSA).
+
+MET2013 reports no code for MSAs where the sum of match errors is 15% or more.
+
+For each reported MET2013 code, the MET2013ERR variable identifies the level of the sum of errors. Researchers may use MET2013ERR to impose a more restrictive error limit if desired.
+
+To compute match errors, IPUMS uses 2010 populations for ACS and PRCS samples and 2000 populations for 2000 samples. For samples that use 2000 PUMA definitions (which includes the 2000 samples and ACS and PRCS samples through 2011), IPUMS estimates the populations of the areas of intersection between 2000 PUMAs and 2013 MSAs by summing the populations of census blocks that had their geographic center in each area.
+
+For more detailed information about PUMA-MSA relationships and MET2013 match errors, IPUMS provides these tables (in Excel spreadsheets):
+
+2000 5% sample:
+Crosswalk Between 2013 MSAs and 2000 PUMAs with 2000 Populations [URL omitted from DDI.]
+MET2013 Omission and Commission Errors by MSA [URL omitted from DDI.]
+
+2005-2011 ACS and PRCS samples:
+Crosswalk Between 2013 MSAs and 2000 PUMAs with 2010 Populations [URL omitted from DDI.]
+MET2013 Omission and Commission Errors by MSA [URL omitted from DDI.]
+
+2012 and later ACS and PRCS samples:
+Crosswalk Between 2013 MSAs and 2010 PUMAs [URL omitted from DDI.]
+MET2013 Omission and Commission Errors by MSA [URL omitted from DDI.]]]></txt>
+      <catgry>
+        <catValu>21060</catValu>
+        <labl>Elizabethtown-Fort Knox, KY</labl>
+      </catgry>
+      <catgry>
+        <catValu>20500</catValu>
+        <labl>Durham-Chapel Hill, NC</labl>
+      </catgry>
+      <catgry>
+        <catValu>21780</catValu>
+        <labl>Evansville, IN-KY</labl>
+      </catgry>
+      <catgry>
+        <catValu>22140</catValu>
+        <labl>Farmington, NM</labl>
+      </catgry>
+      <catgry>
+        <catValu>22420</catValu>
+        <labl>Flint, MI</labl>
+      </catgry>
+      <catgry>
+        <catValu>22520</catValu>
+        <labl>Florence-Muscle Shoals, AL</labl>
+      </catgry>
+      <catgry>
+        <catValu>25220</catValu>
+        <labl>Hammond, LA</labl>
+      </catgry>
+      <catgry>
+        <catValu>25620</catValu>
+        <labl>Hattiesburg, MS</labl>
+      </catgry>
+      <catgry>
+        <catValu>27340</catValu>
+        <labl>Jacksonville, NC</labl>
+      </catgry>
+      <catgry>
+        <catValu>28420</catValu>
+        <labl>Kennewick-Richland, WA</labl>
+      </catgry>
+      <catgry>
+        <catValu>28660</catValu>
+        <labl>Killeen-Temple, TX</labl>
+      </catgry>
+      <catgry>
+        <catValu>28700</catValu>
+        <labl>Kingsport-Bristol-Bristol, TN-VA</labl>
+      </catgry>
+      <catgry>
+        <catValu>29340</catValu>
+        <labl>Lake Charles, LA</labl>
+      </catgry>
+      <catgry>
+        <catValu>37460</catValu>
+        <labl>Panama City, FL</labl>
+      </catgry>
+      <catgry>
+        <catValu>48700</catValu>
+        <labl>Williamsport, PA</labl>
+      </catgry>
+      <catgry>
+        <catValu>47220</catValu>
+        <labl>Vineland-Bridgeton, NJ</labl>
+      </catgry>
+      <catgry>
+        <catValu>46660</catValu>
+        <labl>Valdosta, GA</labl>
+      </catgry>
+      <catgry>
+        <catValu>45460</catValu>
+        <labl>Terre Haute, IN</labl>
+      </catgry>
+      <catgry>
+        <catValu>45220</catValu>
+        <labl>Tallahassee, FL</labl>
+      </catgry>
+      <catgry>
+        <catValu>44940</catValu>
+        <labl>Sumter, SC</labl>
+      </catgry>
+      <catgry>
+        <catValu>41060</catValu>
+        <labl>St. Cloud, MN</labl>
+      </catgry>
+      <catgry>
+        <catValu>38660</catValu>
+        <labl>Ponce, PR</labl>
+      </catgry>
+      <catgry>
+        <catValu>37900</catValu>
+        <labl>Peoria, IL</labl>
+      </catgry>
+      <catgry>
+        <catValu>00000</catValu>
+        <labl>Not in identifiable area</labl>
+      </catgry>
+      <catgry>
+        <catValu>10420</catValu>
+        <labl>Akron, OH</labl>
+      </catgry>
+      <catgry>
+        <catValu>10580</catValu>
+        <labl>Albany-Schenectady-Troy, NY</labl>
+      </catgry>
+      <catgry>
+        <catValu>10740</catValu>
+        <labl>Albuquerque, NM</labl>
+      </catgry>
+      <catgry>
+        <catValu>10900</catValu>
+        <labl>Allentown-Bethlehem-Easton, PA-NJ</labl>
+      </catgry>
+      <catgry>
+        <catValu>11100</catValu>
+        <labl>Amarillo, TX</labl>
+      </catgry>
+      <catgry>
+        <catValu>11260</catValu>
+        <labl>Anchorage, AK</labl>
+      </catgry>
+      <catgry>
+        <catValu>11460</catValu>
+        <labl>Ann Arbor, MI</labl>
+      </catgry>
+      <catgry>
+        <catValu>11500</catValu>
+        <labl>Anniston-Oxford-Jacksonville, AL</labl>
+      </catgry>
+      <catgry>
+        <catValu>11700</catValu>
+        <labl>Asheville, NC</labl>
+      </catgry>
+      <catgry>
+        <catValu>12060</catValu>
+        <labl>Atlanta-Sandy Springs-Roswell, GA</labl>
+      </catgry>
+      <catgry>
+        <catValu>12100</catValu>
+        <labl>Atlantic City-Hammonton, NJ</labl>
+      </catgry>
+      <catgry>
+        <catValu>12220</catValu>
+        <labl>Auburn-Opelika, AL</labl>
+      </catgry>
+      <catgry>
+        <catValu>12260</catValu>
+        <labl>Augusta-Richmond County, GA-SC</labl>
+      </catgry>
+      <catgry>
+        <catValu>12420</catValu>
+        <labl>Austin-Round Rock, TX</labl>
+      </catgry>
+      <catgry>
+        <catValu>12540</catValu>
+        <labl>Bakersfield, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>12580</catValu>
+        <labl>Baltimore-Columbia-Towson, MD</labl>
+      </catgry>
+      <catgry>
+        <catValu>12620</catValu>
+        <labl>Bangor, ME</labl>
+      </catgry>
+      <catgry>
+        <catValu>12700</catValu>
+        <labl>Barnstable Town, MA</labl>
+      </catgry>
+      <catgry>
+        <catValu>12940</catValu>
+        <labl>Baton Rouge, LA</labl>
+      </catgry>
+      <catgry>
+        <catValu>13140</catValu>
+        <labl>Beaumont-Port Arthur, TX</labl>
+      </catgry>
+      <catgry>
+        <catValu>13380</catValu>
+        <labl>Bellingham, WA</labl>
+      </catgry>
+      <catgry>
+        <catValu>13460</catValu>
+        <labl>Bend-Redmond, OR</labl>
+      </catgry>
+      <catgry>
+        <catValu>13780</catValu>
+        <labl>Binghamton, NY</labl>
+      </catgry>
+      <catgry>
+        <catValu>13820</catValu>
+        <labl>Birmingham-Hoover, AL</labl>
+      </catgry>
+      <catgry>
+        <catValu>13900</catValu>
+        <labl>Bismarck, ND</labl>
+      </catgry>
+      <catgry>
+        <catValu>13980</catValu>
+        <labl>Blacksburg-Christiansburg-Radford, VA</labl>
+      </catgry>
+      <catgry>
+        <catValu>14010</catValu>
+        <labl>Bloomington, IL</labl>
+      </catgry>
+      <catgry>
+        <catValu>14020</catValu>
+        <labl>Bloomington, IN</labl>
+      </catgry>
+      <catgry>
+        <catValu>14260</catValu>
+        <labl>Boise City, ID</labl>
+      </catgry>
+      <catgry>
+        <catValu>14460</catValu>
+        <labl>Boston-Cambridge-Newton, MA-NH</labl>
+      </catgry>
+      <catgry>
+        <catValu>14740</catValu>
+        <labl>Bremerton-Silverdale, WA</labl>
+      </catgry>
+      <catgry>
+        <catValu>14860</catValu>
+        <labl>Bridgeport-Stamford-Norwalk, CT</labl>
+      </catgry>
+      <catgry>
+        <catValu>15180</catValu>
+        <labl>Brownsville-Harlingen, TX</labl>
+      </catgry>
+      <catgry>
+        <catValu>15380</catValu>
+        <labl>Buffalo-Cheektowaga-Niagara Falls, NY</labl>
+      </catgry>
+      <catgry>
+        <catValu>15500</catValu>
+        <labl>Burlington, NC</labl>
+      </catgry>
+      <catgry>
+        <catValu>15540</catValu>
+        <labl>Burlington-South Burlington, VT</labl>
+      </catgry>
+      <catgry>
+        <catValu>15940</catValu>
+        <labl>Canton-Massillon, OH</labl>
+      </catgry>
+      <catgry>
+        <catValu>15980</catValu>
+        <labl>Cape Coral-Fort Myers, FL</labl>
+      </catgry>
+      <catgry>
+        <catValu>16580</catValu>
+        <labl>Champaign-Urbana, IL</labl>
+      </catgry>
+      <catgry>
+        <catValu>16620</catValu>
+        <labl>Charleston, WV</labl>
+      </catgry>
+      <catgry>
+        <catValu>16700</catValu>
+        <labl>Charleston-North Charleston, SC</labl>
+      </catgry>
+      <catgry>
+        <catValu>16740</catValu>
+        <labl>Charlotte-Concord-Gastonia, NC-SC</labl>
+      </catgry>
+      <catgry>
+        <catValu>16860</catValu>
+        <labl>Chattanooga, TN-GA</labl>
+      </catgry>
+      <catgry>
+        <catValu>16980</catValu>
+        <labl>Chicago-Naperville-Elgin, IL-IN-WI</labl>
+      </catgry>
+      <catgry>
+        <catValu>17020</catValu>
+        <labl>Chico, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>17140</catValu>
+        <labl>Cincinnati, OH-KY-IN</labl>
+      </catgry>
+      <catgry>
+        <catValu>17300</catValu>
+        <labl>Clarksville, TN-KY</labl>
+      </catgry>
+      <catgry>
+        <catValu>17460</catValu>
+        <labl>Cleveland-Elyria, OH</labl>
+      </catgry>
+      <catgry>
+        <catValu>17660</catValu>
+        <labl>Coeur d'Alene, ID</labl>
+      </catgry>
+      <catgry>
+        <catValu>17780</catValu>
+        <labl>College Station-Bryan, TX</labl>
+      </catgry>
+      <catgry>
+        <catValu>17820</catValu>
+        <labl>Colorado Springs, CO</labl>
+      </catgry>
+      <catgry>
+        <catValu>17860</catValu>
+        <labl>Columbia, MO</labl>
+      </catgry>
+      <catgry>
+        <catValu>17900</catValu>
+        <labl>Columbia, SC</labl>
+      </catgry>
+      <catgry>
+        <catValu>18140</catValu>
+        <labl>Columbus, OH</labl>
+      </catgry>
+      <catgry>
+        <catValu>18580</catValu>
+        <labl>Corpus Christi, TX</labl>
+      </catgry>
+      <catgry>
+        <catValu>19100</catValu>
+        <labl>Dallas-Fort Worth-Arlington, TX</labl>
+      </catgry>
+      <catgry>
+        <catValu>19300</catValu>
+        <labl>Daphne-Fairhope-Foley, AL</labl>
+      </catgry>
+      <catgry>
+        <catValu>19380</catValu>
+        <labl>Dayton, OH</labl>
+      </catgry>
+      <catgry>
+        <catValu>19460</catValu>
+        <labl>Decatur, AL</labl>
+      </catgry>
+      <catgry>
+        <catValu>19500</catValu>
+        <labl>Decatur, IL</labl>
+      </catgry>
+      <catgry>
+        <catValu>19660</catValu>
+        <labl>Deltona-Daytona Beach-Ormond Beach, FL</labl>
+      </catgry>
+      <catgry>
+        <catValu>19740</catValu>
+        <labl>Denver-Aurora-Lakewood, CO</labl>
+      </catgry>
+      <catgry>
+        <catValu>19780</catValu>
+        <labl>Des Moines-West Des Moines, IA</labl>
+      </catgry>
+      <catgry>
+        <catValu>19820</catValu>
+        <labl>Detroit-Warren-Dearborn, MI</labl>
+      </catgry>
+      <catgry>
+        <catValu>20100</catValu>
+        <labl>Dover, DE</labl>
+      </catgry>
+      <catgry>
+        <catValu>20700</catValu>
+        <labl>East Stroudsburg, PA</labl>
+      </catgry>
+      <catgry>
+        <catValu>20740</catValu>
+        <labl>Eau Claire, WI</labl>
+      </catgry>
+      <catgry>
+        <catValu>20940</catValu>
+        <labl>El Centro, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>21140</catValu>
+        <labl>Elkhart-Goshen, IN</labl>
+      </catgry>
+      <catgry>
+        <catValu>21340</catValu>
+        <labl>El Paso, TX</labl>
+      </catgry>
+      <catgry>
+        <catValu>21500</catValu>
+        <labl>Erie, PA</labl>
+      </catgry>
+      <catgry>
+        <catValu>21660</catValu>
+        <labl>Eugene, OR</labl>
+      </catgry>
+      <catgry>
+        <catValu>22180</catValu>
+        <labl>Fayetteville, NC</labl>
+      </catgry>
+      <catgry>
+        <catValu>22220</catValu>
+        <labl>Fayetteville-Springdale-Rogers, AR-MO</labl>
+      </catgry>
+      <catgry>
+        <catValu>22380</catValu>
+        <labl>Flagstaff, AZ</labl>
+      </catgry>
+      <catgry>
+        <catValu>22500</catValu>
+        <labl>Florence, SC</labl>
+      </catgry>
+      <catgry>
+        <catValu>22660</catValu>
+        <labl>Fort Collins, CO</labl>
+      </catgry>
+      <catgry>
+        <catValu>23060</catValu>
+        <labl>Fort Wayne, IN</labl>
+      </catgry>
+      <catgry>
+        <catValu>23420</catValu>
+        <labl>Fresno, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>23460</catValu>
+        <labl>Gadsden, AL</labl>
+      </catgry>
+      <catgry>
+        <catValu>23540</catValu>
+        <labl>Gainesville, FL</labl>
+      </catgry>
+      <catgry>
+        <catValu>23580</catValu>
+        <labl>Gainesville, GA</labl>
+      </catgry>
+      <catgry>
+        <catValu>24020</catValu>
+        <labl>Glens Falls, NY</labl>
+      </catgry>
+      <catgry>
+        <catValu>24140</catValu>
+        <labl>Goldsboro, NC</labl>
+      </catgry>
+      <catgry>
+        <catValu>24300</catValu>
+        <labl>Grand Junction, CO</labl>
+      </catgry>
+      <catgry>
+        <catValu>24340</catValu>
+        <labl>Grand Rapids-Wyoming, MI</labl>
+      </catgry>
+      <catgry>
+        <catValu>24660</catValu>
+        <labl>Greensboro-High Point, NC</labl>
+      </catgry>
+      <catgry>
+        <catValu>24780</catValu>
+        <labl>Greenville, NC</labl>
+      </catgry>
+      <catgry>
+        <catValu>24860</catValu>
+        <labl>Greenville-Anderson-Mauldin, SC</labl>
+      </catgry>
+      <catgry>
+        <catValu>25060</catValu>
+        <labl>Gulfport-Biloxi-Pascagoula, MS</labl>
+      </catgry>
+      <catgry>
+        <catValu>25260</catValu>
+        <labl>Hanford-Corcoran, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>25420</catValu>
+        <labl>Harrisburg-Carlisle, PA</labl>
+      </catgry>
+      <catgry>
+        <catValu>25500</catValu>
+        <labl>Harrisonburg, VA</labl>
+      </catgry>
+      <catgry>
+        <catValu>25540</catValu>
+        <labl>Hartford-West Hartford-East Hartford, CT</labl>
+      </catgry>
+      <catgry>
+        <catValu>25860</catValu>
+        <labl>Hickory-Lenoir-Morganton, NC</labl>
+      </catgry>
+      <catgry>
+        <catValu>25940</catValu>
+        <labl>Hilton Head Island-Bluffton-Beaufort, SC</labl>
+      </catgry>
+      <catgry>
+        <catValu>26140</catValu>
+        <labl>Homosassa Springs, FL</labl>
+      </catgry>
+      <catgry>
+        <catValu>26380</catValu>
+        <labl>Houma-Thibodaux, LA</labl>
+      </catgry>
+      <catgry>
+        <catValu>26420</catValu>
+        <labl>Houston-The Woodlands-Sugar Land, TX</labl>
+      </catgry>
+      <catgry>
+        <catValu>26620</catValu>
+        <labl>Huntsville, AL</labl>
+      </catgry>
+      <catgry>
+        <catValu>26900</catValu>
+        <labl>Indianapolis-Carmel-Anderson, IN</labl>
+      </catgry>
+      <catgry>
+        <catValu>26980</catValu>
+        <labl>Iowa City, IA</labl>
+      </catgry>
+      <catgry>
+        <catValu>27060</catValu>
+        <labl>Ithaca, NY</labl>
+      </catgry>
+      <catgry>
+        <catValu>27100</catValu>
+        <labl>Jackson, MI</labl>
+      </catgry>
+      <catgry>
+        <catValu>27140</catValu>
+        <labl>Jackson, MS</labl>
+      </catgry>
+      <catgry>
+        <catValu>27180</catValu>
+        <labl>Jackson, TN</labl>
+      </catgry>
+      <catgry>
+        <catValu>27260</catValu>
+        <labl>Jacksonville, FL</labl>
+      </catgry>
+      <catgry>
+        <catValu>27500</catValu>
+        <labl>Janesville-Beloit, WI</labl>
+      </catgry>
+      <catgry>
+        <catValu>27620</catValu>
+        <labl>Jefferson City, MO</labl>
+      </catgry>
+      <catgry>
+        <catValu>27780</catValu>
+        <labl>Johnstown, PA</labl>
+      </catgry>
+      <catgry>
+        <catValu>27900</catValu>
+        <labl>Joplin, MO</labl>
+      </catgry>
+      <catgry>
+        <catValu>28020</catValu>
+        <labl>Kalamazoo-Portage, MI</labl>
+      </catgry>
+      <catgry>
+        <catValu>28100</catValu>
+        <labl>Kankakee, IL</labl>
+      </catgry>
+      <catgry>
+        <catValu>28140</catValu>
+        <labl>Kansas City, MO-KS</labl>
+      </catgry>
+      <catgry>
+        <catValu>28940</catValu>
+        <labl>Knoxville, TN</labl>
+      </catgry>
+      <catgry>
+        <catValu>29100</catValu>
+        <labl>La Crosse-Onalaska, WI-MN</labl>
+      </catgry>
+      <catgry>
+        <catValu>29180</catValu>
+        <labl>Lafayette, LA</labl>
+      </catgry>
+      <catgry>
+        <catValu>29200</catValu>
+        <labl>Lafayette-West Lafayette, IN</labl>
+      </catgry>
+      <catgry>
+        <catValu>29420</catValu>
+        <labl>Lake Havasu City-Kingman, AZ</labl>
+      </catgry>
+      <catgry>
+        <catValu>29460</catValu>
+        <labl>Lakeland-Winter Haven, FL</labl>
+      </catgry>
+      <catgry>
+        <catValu>29540</catValu>
+        <labl>Lancaster, PA</labl>
+      </catgry>
+      <catgry>
+        <catValu>29620</catValu>
+        <labl>Lansing-East Lansing, MI</labl>
+      </catgry>
+      <catgry>
+        <catValu>29700</catValu>
+        <labl>Laredo, TX</labl>
+      </catgry>
+      <catgry>
+        <catValu>29740</catValu>
+        <labl>Las Cruces, NM</labl>
+      </catgry>
+      <catgry>
+        <catValu>29820</catValu>
+        <labl>Las Vegas-Henderson-Paradise, NV</labl>
+      </catgry>
+      <catgry>
+        <catValu>29940</catValu>
+        <labl>Lawrence, KS</labl>
+      </catgry>
+      <catgry>
+        <catValu>30140</catValu>
+        <labl>Lebanon, PA</labl>
+      </catgry>
+      <catgry>
+        <catValu>30340</catValu>
+        <labl>Lewiston-Auburn, ME</labl>
+      </catgry>
+      <catgry>
+        <catValu>30620</catValu>
+        <labl>Lima, OH</labl>
+      </catgry>
+      <catgry>
+        <catValu>30700</catValu>
+        <labl>Lincoln, NE</labl>
+      </catgry>
+      <catgry>
+        <catValu>30780</catValu>
+        <labl>Little Rock-North Little Rock-Conway, AR</labl>
+      </catgry>
+      <catgry>
+        <catValu>31080</catValu>
+        <labl>Los Angeles-Long Beach-Anaheim, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>31140</catValu>
+        <labl>Louisville/Jefferson County, KY-IN</labl>
+      </catgry>
+      <catgry>
+        <catValu>31180</catValu>
+        <labl>Lubbock, TX</labl>
+      </catgry>
+      <catgry>
+        <catValu>31340</catValu>
+        <labl>Lynchburg, VA</labl>
+      </catgry>
+      <catgry>
+        <catValu>31460</catValu>
+        <labl>Madera, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>31700</catValu>
+        <labl>Manchester-Nashua, NH</labl>
+      </catgry>
+      <catgry>
+        <catValu>31900</catValu>
+        <labl>Mansfield, OH</labl>
+      </catgry>
+      <catgry>
+        <catValu>32420</catValu>
+        <labl>Mayagüez, PR</labl>
+      </catgry>
+      <catgry>
+        <catValu>32580</catValu>
+        <labl>McAllen-Edinburg-Mission, TX</labl>
+      </catgry>
+      <catgry>
+        <catValu>32780</catValu>
+        <labl>Medford, OR</labl>
+      </catgry>
+      <catgry>
+        <catValu>32820</catValu>
+        <labl>Memphis, TN-MS-AR</labl>
+      </catgry>
+      <catgry>
+        <catValu>32900</catValu>
+        <labl>Merced, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>33100</catValu>
+        <labl>Miami-Fort Lauderdale-West Palm Beach, FL</labl>
+      </catgry>
+      <catgry>
+        <catValu>33140</catValu>
+        <labl>Michigan City-La Porte, IN</labl>
+      </catgry>
+      <catgry>
+        <catValu>33260</catValu>
+        <labl>Midland, TX</labl>
+      </catgry>
+      <catgry>
+        <catValu>33340</catValu>
+        <labl>Milwaukee-Waukesha-West Allis, WI</labl>
+      </catgry>
+      <catgry>
+        <catValu>33460</catValu>
+        <labl>Minneapolis-St. Paul-Bloomington, MN-WI</labl>
+      </catgry>
+      <catgry>
+        <catValu>33660</catValu>
+        <labl>Mobile, AL</labl>
+      </catgry>
+      <catgry>
+        <catValu>33700</catValu>
+        <labl>Modesto, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>33740</catValu>
+        <labl>Monroe, LA</labl>
+      </catgry>
+      <catgry>
+        <catValu>33780</catValu>
+        <labl>Monroe, MI</labl>
+      </catgry>
+      <catgry>
+        <catValu>33860</catValu>
+        <labl>Montgomery, AL</labl>
+      </catgry>
+      <catgry>
+        <catValu>34060</catValu>
+        <labl>Morgantown, WV</labl>
+      </catgry>
+      <catgry>
+        <catValu>34620</catValu>
+        <labl>Muncie, IN</labl>
+      </catgry>
+      <catgry>
+        <catValu>34740</catValu>
+        <labl>Muskegon, MI</labl>
+      </catgry>
+      <catgry>
+        <catValu>34820</catValu>
+        <labl>Myrtle Beach-Conway-North Myrtle Beach, SC-NC</labl>
+      </catgry>
+      <catgry>
+        <catValu>34900</catValu>
+        <labl>Napa, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>34940</catValu>
+        <labl>Naples-Immokalee-Marco Island, FL</labl>
+      </catgry>
+      <catgry>
+        <catValu>34980</catValu>
+        <labl>Nashville-Davidson--Murfreesboro--Franklin, TN</labl>
+      </catgry>
+      <catgry>
+        <catValu>35300</catValu>
+        <labl>New Haven-Milford, CT</labl>
+      </catgry>
+      <catgry>
+        <catValu>35380</catValu>
+        <labl>New Orleans-Metairie, LA</labl>
+      </catgry>
+      <catgry>
+        <catValu>35620</catValu>
+        <labl>New York-Newark-Jersey City, NY-NJ-PA</labl>
+      </catgry>
+      <catgry>
+        <catValu>35660</catValu>
+        <labl>Niles-Benton Harbor, MI</labl>
+      </catgry>
+      <catgry>
+        <catValu>35840</catValu>
+        <labl>North Port-Sarasota-Bradenton, FL</labl>
+      </catgry>
+      <catgry>
+        <catValu>35980</catValu>
+        <labl>Norwich-New London, CT</labl>
+      </catgry>
+      <catgry>
+        <catValu>36100</catValu>
+        <labl>Ocala, FL</labl>
+      </catgry>
+      <catgry>
+        <catValu>36140</catValu>
+        <labl>Ocean City, NJ</labl>
+      </catgry>
+      <catgry>
+        <catValu>36220</catValu>
+        <labl>Odessa, TX</labl>
+      </catgry>
+      <catgry>
+        <catValu>36260</catValu>
+        <labl>Ogden-Clearfield, UT</labl>
+      </catgry>
+      <catgry>
+        <catValu>36420</catValu>
+        <labl>Oklahoma City, OK</labl>
+      </catgry>
+      <catgry>
+        <catValu>36500</catValu>
+        <labl>Olympia-Tumwater, WA</labl>
+      </catgry>
+      <catgry>
+        <catValu>36540</catValu>
+        <labl>Omaha-Council Bluffs, NE-IA</labl>
+      </catgry>
+      <catgry>
+        <catValu>36740</catValu>
+        <labl>Orlando-Kissimmee-Sanford, FL</labl>
+      </catgry>
+      <catgry>
+        <catValu>36780</catValu>
+        <labl>Oshkosh-Neenah, WI</labl>
+      </catgry>
+      <catgry>
+        <catValu>36980</catValu>
+        <labl>Owensboro, KY</labl>
+      </catgry>
+      <catgry>
+        <catValu>37100</catValu>
+        <labl>Oxnard-Thousand Oaks-Ventura, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>37340</catValu>
+        <labl>Palm Bay-Melbourne-Titusville, FL</labl>
+      </catgry>
+      <catgry>
+        <catValu>37620</catValu>
+        <labl>Parkersburg-Vienna, WV</labl>
+      </catgry>
+      <catgry>
+        <catValu>37860</catValu>
+        <labl>Pensacola-Ferry Pass-Brent, FL</labl>
+      </catgry>
+      <catgry>
+        <catValu>37980</catValu>
+        <labl>Philadelphia-Camden-Wilmington, PA-NJ-DE-MD</labl>
+      </catgry>
+      <catgry>
+        <catValu>38060</catValu>
+        <labl>Phoenix-Mesa-Scottsdale, AZ</labl>
+      </catgry>
+      <catgry>
+        <catValu>38300</catValu>
+        <labl>Pittsburgh, PA</labl>
+      </catgry>
+      <catgry>
+        <catValu>38340</catValu>
+        <labl>Pittsfield, MA</labl>
+      </catgry>
+      <catgry>
+        <catValu>38860</catValu>
+        <labl>Portland-South Portland, ME</labl>
+      </catgry>
+      <catgry>
+        <catValu>38900</catValu>
+        <labl>Portland-Vancouver-Hillsboro, OR-WA</labl>
+      </catgry>
+      <catgry>
+        <catValu>38940</catValu>
+        <labl>Port St. Lucie, FL</labl>
+      </catgry>
+      <catgry>
+        <catValu>39140</catValu>
+        <labl>Prescott, AZ</labl>
+      </catgry>
+      <catgry>
+        <catValu>39300</catValu>
+        <labl>Providence-Warwick, RI-MA</labl>
+      </catgry>
+      <catgry>
+        <catValu>39340</catValu>
+        <labl>Provo-Orem, UT</labl>
+      </catgry>
+      <catgry>
+        <catValu>39380</catValu>
+        <labl>Pueblo, CO</labl>
+      </catgry>
+      <catgry>
+        <catValu>39460</catValu>
+        <labl>Punta Gorda, FL</labl>
+      </catgry>
+      <catgry>
+        <catValu>39540</catValu>
+        <labl>Racine, WI</labl>
+      </catgry>
+      <catgry>
+        <catValu>39580</catValu>
+        <labl>Raleigh, NC</labl>
+      </catgry>
+      <catgry>
+        <catValu>39740</catValu>
+        <labl>Reading, PA</labl>
+      </catgry>
+      <catgry>
+        <catValu>39820</catValu>
+        <labl>Redding, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>39900</catValu>
+        <labl>Reno, NV</labl>
+      </catgry>
+      <catgry>
+        <catValu>40060</catValu>
+        <labl>Richmond, VA</labl>
+      </catgry>
+      <catgry>
+        <catValu>40140</catValu>
+        <labl>Riverside-San Bernardino-Ontario, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>40220</catValu>
+        <labl>Roanoke, VA</labl>
+      </catgry>
+      <catgry>
+        <catValu>40380</catValu>
+        <labl>Rochester, NY</labl>
+      </catgry>
+      <catgry>
+        <catValu>40420</catValu>
+        <labl>Rockford, IL</labl>
+      </catgry>
+      <catgry>
+        <catValu>40580</catValu>
+        <labl>Rocky Mount, NC</labl>
+      </catgry>
+      <catgry>
+        <catValu>40900</catValu>
+        <labl>Sacramento--Roseville--Arden-Arcade, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>40980</catValu>
+        <labl>Saginaw, MI</labl>
+      </catgry>
+      <catgry>
+        <catValu>41100</catValu>
+        <labl>St. George, UT</labl>
+      </catgry>
+      <catgry>
+        <catValu>41140</catValu>
+        <labl>St. Joseph, MO-KS</labl>
+      </catgry>
+      <catgry>
+        <catValu>41180</catValu>
+        <labl>St. Louis, MO-IL</labl>
+      </catgry>
+      <catgry>
+        <catValu>41500</catValu>
+        <labl>Salinas, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>41540</catValu>
+        <labl>Salisbury, MD-DE</labl>
+      </catgry>
+      <catgry>
+        <catValu>41620</catValu>
+        <labl>Salt Lake City, UT</labl>
+      </catgry>
+      <catgry>
+        <catValu>41660</catValu>
+        <labl>San Angelo, TX</labl>
+      </catgry>
+      <catgry>
+        <catValu>41700</catValu>
+        <labl>San Antonio-New Braunfels, TX</labl>
+      </catgry>
+      <catgry>
+        <catValu>41740</catValu>
+        <labl>San Diego-Carlsbad, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>41860</catValu>
+        <labl>San Francisco-Oakland-Hayward, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>41900</catValu>
+        <labl>San Germán, PR</labl>
+      </catgry>
+      <catgry>
+        <catValu>41940</catValu>
+        <labl>San Jose-Sunnyvale-Santa Clara, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>41980</catValu>
+        <labl>San Juan-Carolina-Caguas, PR</labl>
+      </catgry>
+      <catgry>
+        <catValu>42020</catValu>
+        <labl>San Luis Obispo-Paso Robles-Arroyo Grande, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>42100</catValu>
+        <labl>Santa Cruz-Watsonville, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>42140</catValu>
+        <labl>Santa Fe, NM</labl>
+      </catgry>
+      <catgry>
+        <catValu>42200</catValu>
+        <labl>Santa Maria-Santa Barbara, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>42220</catValu>
+        <labl>Santa Rosa, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>42540</catValu>
+        <labl>Scranton--Wilkes-Barre--Hazleton, PA</labl>
+      </catgry>
+      <catgry>
+        <catValu>42660</catValu>
+        <labl>Seattle-Tacoma-Bellevue, WA</labl>
+      </catgry>
+      <catgry>
+        <catValu>42680</catValu>
+        <labl>Sebastian-Vero Beach, FL</labl>
+      </catgry>
+      <catgry>
+        <catValu>43100</catValu>
+        <labl>Sheboygan, WI</labl>
+      </catgry>
+      <catgry>
+        <catValu>43340</catValu>
+        <labl>Shreveport-Bossier City, LA</labl>
+      </catgry>
+      <catgry>
+        <catValu>43900</catValu>
+        <labl>Spartanburg, SC</labl>
+      </catgry>
+      <catgry>
+        <catValu>44060</catValu>
+        <labl>Spokane-Spokane Valley, WA</labl>
+      </catgry>
+      <catgry>
+        <catValu>44100</catValu>
+        <labl>Springfield, IL</labl>
+      </catgry>
+      <catgry>
+        <catValu>44140</catValu>
+        <labl>Springfield, MA</labl>
+      </catgry>
+      <catgry>
+        <catValu>44180</catValu>
+        <labl>Springfield, MO</labl>
+      </catgry>
+      <catgry>
+        <catValu>44220</catValu>
+        <labl>Springfield, OH</labl>
+      </catgry>
+      <catgry>
+        <catValu>44300</catValu>
+        <labl>State College, PA</labl>
+      </catgry>
+      <catgry>
+        <catValu>44700</catValu>
+        <labl>Stockton-Lodi, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>45060</catValu>
+        <labl>Syracuse, NY</labl>
+      </catgry>
+      <catgry>
+        <catValu>45300</catValu>
+        <labl>Tampa-St. Petersburg-Clearwater, FL</labl>
+      </catgry>
+      <catgry>
+        <catValu>45780</catValu>
+        <labl>Toledo, OH</labl>
+      </catgry>
+      <catgry>
+        <catValu>45820</catValu>
+        <labl>Topeka, KS</labl>
+      </catgry>
+      <catgry>
+        <catValu>45940</catValu>
+        <labl>Trenton, NJ</labl>
+      </catgry>
+      <catgry>
+        <catValu>46060</catValu>
+        <labl>Tucson, AZ</labl>
+      </catgry>
+      <catgry>
+        <catValu>46220</catValu>
+        <labl>Tuscaloosa, AL</labl>
+      </catgry>
+      <catgry>
+        <catValu>46340</catValu>
+        <labl>Tyler, TX</labl>
+      </catgry>
+      <catgry>
+        <catValu>46520</catValu>
+        <labl>Urban Honolulu, HI</labl>
+      </catgry>
+      <catgry>
+        <catValu>46540</catValu>
+        <labl>Utica-Rome, NY</labl>
+      </catgry>
+      <catgry>
+        <catValu>46700</catValu>
+        <labl>Vallejo-Fairfield, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>47260</catValu>
+        <labl>Virginia Beach-Norfolk-Newport News, VA-NC</labl>
+      </catgry>
+      <catgry>
+        <catValu>47300</catValu>
+        <labl>Visalia-Porterville, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>47380</catValu>
+        <labl>Waco, TX</labl>
+      </catgry>
+      <catgry>
+        <catValu>47900</catValu>
+        <labl>Washington-Arlington-Alexandria, DC-VA-MD-WV</labl>
+      </catgry>
+      <catgry>
+        <catValu>48140</catValu>
+        <labl>Wausau, WI</labl>
+      </catgry>
+      <catgry>
+        <catValu>48300</catValu>
+        <labl>Wenatchee, WA</labl>
+      </catgry>
+      <catgry>
+        <catValu>48620</catValu>
+        <labl>Wichita, KS</labl>
+      </catgry>
+      <catgry>
+        <catValu>48660</catValu>
+        <labl>Wichita Falls, TX</labl>
+      </catgry>
+      <catgry>
+        <catValu>48900</catValu>
+        <labl>Wilmington, NC</labl>
+      </catgry>
+      <catgry>
+        <catValu>49180</catValu>
+        <labl>Winston-Salem, NC</labl>
+      </catgry>
+      <catgry>
+        <catValu>49340</catValu>
+        <labl>Worcester, MA-CT</labl>
+      </catgry>
+      <catgry>
+        <catValu>49420</catValu>
+        <labl>Yakima, WA</labl>
+      </catgry>
+      <catgry>
+        <catValu>49620</catValu>
+        <labl>York-Hanover, PA</labl>
+      </catgry>
+      <catgry>
+        <catValu>49660</catValu>
+        <labl>Youngstown-Warren-Boardman, OH-PA</labl>
+      </catgry>
+      <catgry>
+        <catValu>49700</catValu>
+        <labl>Yuba City, CA</labl>
+      </catgry>
+      <catgry>
+        <catValu>49740</catValu>
+        <labl>Yuma, AZ</labl>
+      </catgry>
+      <catgry>
+        <catValu>19340</catValu>
+        <labl>Davenport-Moline-Rock Island, IA-IL</labl>
+      </catgry>
+      <catgry>
+        <catValu>16820</catValu>
+        <labl>Charlottesville, VA</labl>
+      </catgry>
+      <catgry>
+        <catValu>13740</catValu>
+        <labl>Billings, MT</labl>
+      </catgry>
+      <catgry>
+        <catValu>12980</catValu>
+        <labl>Battle Creek, MI</labl>
+      </catgry>
+      <catgry>
+        <catValu>12020</catValu>
+        <labl>Athens-Clarke County, GA</labl>
+      </catgry>
+      <catgry>
+        <catValu>11020</catValu>
+        <labl>Altoona, PA</labl>
+      </catgry>
+      <catgry>
+        <catValu>10780</catValu>
+        <labl>Alexandria, LA</labl>
+      </catgry>
+      <catgry>
+        <catValu>24540</catValu>
+        <labl>Greeley, CO</labl>
+      </catgry>
+      <concept vocab="IPUMS">Geographic Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="PUMA" files="ExtractData" name="PUMA" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="64" width="5" EndPos="68"/>
+      <labl>Public Use Microdata Area</labl>
+      <txt><![CDATA[PUMA identifies the Public Use Microdata Area (PUMA) where the housing unit was located. In the 1990 State sample, PUMAs generally follow the boundaries of county groups, single counties, or census-defined "places". If these areas exceed 200,000 residents, they are divided into as many PUMAs of 100,000+ residents as possible. None of the 1990 State sample PUMAs cross state lines. For the 1990 Metro sample, PUMAs generally follow the boundaries of whole central cities, Metropolitan Statistical Areas, Primary Metropolitan Statistical Areas, or non-metropolitan places (See METAREA for definitions of these terms). If these areas exceed 200,000 residents, they are divided into as many PUMAs of 100,000+ residents as possible. 1990 Metro sample PUMAs sometimes cross state lines; when they do, STATEFIP and STATEICP codes are not available for households in those PUMAs. PUMAs in the 2000 census, 2010 census, and the 2005-onward ACS/PRCS also consist of 100,000+ residents, and they do not cross state lines.
+
+Note that PUMA is state-dependent. The codes must be read in combination with one of the STATE variables (STATEFIP or STATEICP). PUMAs are categorized by type (e.g., metropolitan, mixed metro/nonmetro, non-metropolitan) in the variable PUMATYPE. PUMA is similar to the county group variables, CNTYGP97 (1970) and CNTYGP98 (1980), and the State Economic Area variable (SEA) for 1940 and 1950.
+
+Note Regarding Multi-Year Samples: The Census Bureau redraws PUMA boundaries every 10 years based on population information gathered from the most recent decennial census. ACS samples incorporate the new PUMAs within a few years of the Decennial Census. See the comparability statement to see which PUMAs are used in each sample. In Multi-Year ACS files, PUMA boundaries depend on the original year the respondent was interviewed (see MULTYEAR). For example in the 2010-2012 3-year ACS sample, respondents from 2010 and 2011 correspond to the Census 2000 based PUMAs, while respondents from 2012 correspond to the Census 2010 based PUMAs.]]></txt>
+      <codInstr><![CDATA[
+PUMA is a 5-digit numeric variable identifying the Public Use Microdata Area (PUMA) where the housing unit was located. PUMAs are categorized by type (e.g., metropolitan, mixed metro/nonmetro, non-metropolitan) in the variable PUMATYPE. PUMA is similar to the county group variables, CNTYGP97 (1970) and CNTYGP98 (1980), and the State Economic Area variable (SEA) for 1940 and 1950. PUMA specific variable codes for missing, edited, or unidentified observations, observations not applicable (N/A), observations not in universe (NIU), top and bottom value coding, etc. are provided below by Census year (and data sample if specified).
+
+User Note: PUMAs are drawn and coded differently for the 1990 State and Metro samples. In the 1990 State sample, PUMAs generally follow the boundaries of groups of counties, single counties, or census-defined "places". If such areas exceed 200,000 residents, they are divided into as many PUMAs of 100,000+ residents as possible. None of the 1990 State sample PUMAs cross state lines. In the 1990 Metro sample, PUMAs generally follow the boundaries of whole central cities, Metropolitan Statistical Areas, Primary Metropolitan Statistical Areas, or non-metropolitan places (See METAREA for definitions of these terms). If these areas exceed 200,000 residents, they are divided into as many PUMAs of 100,000+ residents as possible. 1990 Metro sample PUMAs sometimes cross state lines; when they do, STATEFIP and STATEICP codes are not available for households in those PUMAs. PUMAs in the 2000 census, 2010 census, and the 2005-onward ACS/PRCS also consist of 100,000+ residents, and they do not cross state lines.
+
+User Note: PUMA is state-dependent, therefore the codes must be read in combination with one of the STATE variables: STATEFIP or STATEICP.
+
+PUMA Specific Variable Codes
+See links for details regarding PUMA codes:
+Census 2010 based PUMA map and Boundary files [URL omitted from DDI.]
+Census 2000 based PUMA and Super-PUMA Maps, Boundary files and Detailed Composition [URL omitted from DDI.]
+1990 PUMA Maps, Boundary files and Detailed Composition [URL omitted from DDI.]
+1990 PUMAs crossing state lines, 1 percent Metro sample [URL omitted from DDI.]
+
+User Note: In the 2006-2011 ACS, persons living in Louisiana PUMAs 01801, 01802, and 01905 were all coded as living in Louisiana PUMA 77777. This is because these three PUMAs no longer had sufficient population to be included as separate entities due the effects of hurricane Katrina.]]></codInstr>
+      <concept vocab="IPUMS">Geographic Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="STRATA" files="ExtractData" name="STRATA" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="69" width="12" EndPos="80"/>
+      <labl>Household strata for variance estimation</labl>
+      <txt><![CDATA[STRATA is designed for use with CLUSTER in Taylor series linear approximation for correction of complex sample design characteristics.
+
+While appropriate use of the sampling weights PERWT and HHWT allow users to produce correct point estimates (such as means and proportions), many researchers believe that additional statistical techniques are also necessary to produce correct standard errors and statistical tests that account for complex sample design. 
+
+For further information on why and how to use STRATA and CLUSTER, see  Analysis and Variance Estimation with the IPUMS  [URL omitted from DDI.]. For more details on the mathematics behind this method, see  Issues Concerning the Calculation of Standard Errors Using IPUMS Data Products  [URL omitted from DDI.].]]></txt>
+      <codInstr><![CDATA[
+STRATA is a 12-digit numeric variable designed for use with CLUSTER in Taylor series linear approximation for correction of complex sample design characteristics. While appropriate use of the sampling weights PERWT and HHWT allow users to produce correct point estimates (such as means and proportions), many researchers believe that additional statistical techniques are also necessary to produce correct standard errors and statistical tests that account for complex sample design. STRATA specific variable codes for missing, edited, or unidentified observations, observations not applicable (N/A), observations not in universe (NIU), top and bottom value coding, etc. are provided below if applicable by Census year (and data sample if specified).
+
+User Note: For further information on why and how to use STRATA and CLUSTER, see Analysis and Variance Estimation with the IPUMS [URL omitted from DDI.]. For more details on the mathematics behind this method, see Issues Concerning the Calculation of Standard Errors Using IPUMS Data Products [URL omitted from DDI.].  
+
+STRATA Specific Variable Codes]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="CPUMA0010" files="ExtractData" name="CPUMA0010" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="81" width="4" EndPos="84"/>
+      <labl>Consistent PUMA, 2000-2010</labl>
+      <txt><![CDATA[The CPUMA0010 variable supplies codes for the 0010 version of ConsPUMAs (Consistent Public Use Microdata Areas). Each 0010 ConsPUMA is an aggregation of one or more 2010 U.S. Census PUMAs (Public Use Microdata Areas) that, in combination, align closely (within a 1% population mismatch tolerance) with a corresponding set of 2000 PUMAs.
+
+The 0010 ConsPUMAs are effectively the smallest geographic units that can be consistently identified from the geographic codes available in U.S. Census PUMS from 2000 and later (until 2020 PUMAs take effect sometime after the 2020 Census).
+
+See the 0010 ConsPUMA Geographic Tools page [URL omitted from DDI.] for boundary files and detailed composition tables.
+
+PUMAs and ConsPUMAs
+PUMAs are the smallest geographic units identified in U.S. Census Public Use Microdata Samples (PUMS) since 1990. PUMA definitions are altered after each decennial census, so PUMA codes are not consistently comparable across time.
+
+To support spatio-temporal analysis of PUMS data, IPUMS defines ConsPUMAs as minimally aggregated sets of PUMAs that, when consolidated, align well across samples.
+
+Different versions of ConsPUMAs correspond to different vintages of PUMAs. The 0010 version represents areas that are consistent among 2000 and 2010 PUMAs.
+
+A separate variable, CONSPUMA, identifies sets of 1980 county groups and 1990 and 2000 PUMAs that comprise comparable populations for samples from 1980 through 2011.
+
+Construction Process and Mismatch Errors
+To construct 0010 ConsPUMAs, we applied an aggregation algorithm that groups together 2010 PUMAs iteratively until the total population mismatch between each set of 2010 PUMAs and its closest matching set of 2000 PUMAs falls below 1% for both the 2000 and 2010 populations.
+
+Specifically, to compute mismatch errors, we first sum, for each intersection between 2000 and 2010 PUMAs, the populations of census blocks that have their center in the intersection according to 2010 Census TIGER/Line files. We then compute the percent omission error (the percent of 2010 PUMAs' population that resides outside of 2000 PUMAs) and percent commission error (the percent of 2000 PUMAs' population that resides outside of 2010 PUMAs) for each ConsPUMA. We sum these two statistics to obtain final mismatch scores.
+
+We compute mismatch separately for 2000 and 2010 populations in order to ensure that the mismatch between the 2000 and 2010 PUMAs associated with each ConsPUMA is acceptably small (below 1%) at both times.
+
+The CPUMA0010 Summary, available via the 0010 ConsPUMA Geographic Tools page [URL omitted from DDI.], provides the mismatch errors for each ConsPUMA. That page also provides a 2000-2010 PUMA crosswalk file that includes the block-based 2000 and 2010 populations for each intersection between PUMAs.
+
+The algorithmic approach we use for 0010 ConsPUMAs differs from the process used to construct the original CONSPUMA variable. In that case, researchers visually inspected boundaries and "hand selected" ConsPUMA sets whose boundaries were closely (if not exactly) in alignment. The visual approach can ensure minimal levels of spatial mismatch, but small areas of mismatch may occasionally contain substantial populations, and large areas of mismatch may contain very small populations. Therefore, the visual approach may occasionally merge PUMAs unnecessarily or fail to merge PUMAs where the population mismatch is in fact large. In contrast, the new population-based algorithm is more consistent and reliable with respect to population mismatch.
+
+More information on the exact steps of the algorithm will be provided in a forthcoming paper.]]></txt>
+      <codInstr><![CDATA[
+CPUMA0010 is a 4-digit numeric variable identifying aggregations of one or more 2010 PUMAs that, in combination, align closely (within a 1% population mismatch tolerance) with a corresponding set of 2000 PUMAs. Its values range in consecutive sequence from 1 to 1085, and each code is unique for the entire U.S. and Puerto Rico. Therefore, unlike PUMA and county group codes, CPUMA0010 codes are not state-dependent.
+
+See the 0010 ConsPUMA Geographic Tools page [URL omitted from DDI.] for boundary files and detailed composition tables.]]></codInstr>
+      <concept vocab="IPUMS">Geographic Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="GQ" files="ExtractData" name="GQ" intrvl="discrete" dcml="0" rectype="H">
+      <location StartPos="85" width="1" EndPos="85"/>
+      <labl>Group quarters status</labl>
+      <txt><![CDATA[GQ classifies all housing units as falling into one of three main categories: households, group quarters, or vacant units. It also identifies fragmentary sample units for 1850-1930 (see below). In all years, the data available about a person and their co-residents depend on whether the person lives in a household or in group quarters. Households are sampled as units, meaning that everyone in the household is included in the sample, and most household-level variables are available. People living in group quarters are generally sampled as individuals; other people in their unit may or may not be included in the sample, and there is no way of linking co-residents' records to one another. If, however, a sampled person in group quarters was living with relatives, the related group was sampled for 1850-1930. Most household-level variables are not available for group quarters or for vacant units.
+
+Group quarters are largely institutions and other group living arrangements, such as rooming houses and military barracks. The definitions vary from year to year, but the pre-1940 samples have generally used a definition of group quarters that includes units with 10 or more individuals unrelated to the householder. See the comparability discussion below and "Sample Designs" [URL omitted from DDI.] for more details about changing definitions of group quarters.  Group-quarters types are identified in further detail by GQTYPE and GQFUNDS.]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>Vacant unit</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Households under 1970 definition</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Additional households under 1990 definition</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Group quarters--Institutions</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Other group quarters</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Additional households under 2000 definition</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Fragment</labl>
+      </catgry>
+      <concept vocab="IPUMS">Group Quarters Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="VACANCY" files="ExtractData" name="VACANCY" intrvl="discrete" dcml="0" rectype="H">
+      <location StartPos="86" width="1" EndPos="86"/>
+      <labl>Vacancy status</labl>
+      <txt><![CDATA[VACANCY identifies vacant housing units and reports the reason for the vacancy (e.g., for rent, for sale, used only seasonally). To be counted as "vacant," a unit has to be in livable condition and intended for residential use. For newly-constructed units, all exterior windows and doors must be installed, and usable floors must be in place. Dilapidated, condemned, and nonresidential buildings are thus excluded. Mobile homes and trailers (in 1970 and 1980) were counted only if they were intended for occupancy where they stood (i.e., they were not still in a factory or retailer's sales lot). Enumerators obtained vacancy information from landlords, owners, neighbors, or anyone else who might have known about the unit's status; in 1970, they could rely on personal inspection.
+
+User Caution: By default, the extraction system rectangularizes the data: that is, it puts household information on the person records and does not retain the households as separate records.  As a result, rectangular files will not contain vacant units, since there are no persons corresponding to these units.  Researchers wishing to retain vacant units should instead choose a hierarchical file format when creating their extract.]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>N/A</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>For rent or sale</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>For sale only</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Rented or sold but not (yet) occupied</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>For seasonal, recreational or other occasional use</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>For occasional use</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>For seasonal use</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>For migrant farm workers</labl>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>For seasonal use or migratory</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Other vacant</labl>
+      </catgry>
+      <concept vocab="IPUMS">Dwelling Characteristic Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+      <notes>Case selections:  1 For rent, 2 For sale only, 3 Rented or sold but not (yet) occupied, 4 For seasonal, recreational or other occasional use, 5 For occasional use, 6 For seasonal use, 7 For migratory workers, 8 For seasonal use or migratory workers, 9 Other vacant</notes>
+    </var>
+    <var ID="REPWT1" files="ExtractData" name="REPWT1" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="87" width="6" EndPos="92"/>
+      <labl>Household replicate weight 1</labl>
+      <txt><![CDATA[Replicate weights allow users to generate empirically derived standard errors. Calculating the standard error of an estimate enables the construction of a confidence interval around the sample estimate of interest and may also be used in hypothesis testing. 
+
+In theory, the standard error of an estimate measures the variation of a statistic across multiple samples of a given population. Researchers can use replicate weights to mirror this theoretical approach when only sample data is available. 
+
+The 2005-2007 ACS and PRCS samples contains eighty replicate weights at the household level (variables named REPWT1 through REPWT80) and eighty at the person level (variables named REPWTP1 through REPWTP80). The Census Bureau produced these weights by using what is known as the Successive Difference Replication (SDR) method, which involves repeated implementations of the initial weighting algorithm. 
+
+To calculate standard errors, users should generate 80 separate estimates using each of the 80 replicate weights. Along with the single full-sample estimate that can be generated using PERWT or HHWT, this information can then be used to compute the standard error of the estimate with this formula provided by the Census Bureau:
+
+[Image omitted from DDI.]
+
+where r is the number of replicates (1-80), 
+X is the full-sample estimate based on the unbiased weights (either PERWT or HHWT), 
+Xr is the replicate estimate based on the r-th set of replicate weights.
+
+Once calculated, the standard error is useful for constructing confidence intervals and in hypothesis testing.
+
+This method is a more precise alternative to the method of generating standard errors described in the SUBSAMP variable description. SUBSAMP allows users to divide an IPUMS sample into 100 component parts and then to generate subsample estimates for each of those parts. Replicate weights allow users to generate 80 replicate estimates, each of which uses full sample data. Thus, instead of calculating the variation among 100 small subsample estimates as one would do using SUBSAMP, replicate weights allow for calculating the variation among eighty full-size estimates, using REPWT(P)1-REPWT(P)80. 
+
+Standard errors computed using replicate weights are almost always more accurate than those computed using subsamples. Estimates generated with replicate weights have more cases involved since each estimate uses all sample data rather than 1/100th of all of the sample data. Furthermore, the replicate weights themselves are constructed by the Census Bureau with full sampling information that is not available in samples prior to 2005. Additional information about replicate weights is available in the 2005 ACS PUMS Accuracy Statement  [URL omitted from DDI.]. 
+	
+User Note: The successive difference replication approach (SDR) is different from other methods for creating replicate weights such as balanced repeated replication (BRR) and jackknife estimation.]]></txt>
+      <codInstr><![CDATA[
+REPWT(P) is a 4-digit numeric variable. 
+
+NOTE: Eighty sets of 4-digit household (REPWT1-REPWT80) and person (REPWTP1-REPWTP80) level replicate weights are included in extracts where this selection is made.]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT2" files="ExtractData" name="REPWT2" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="93" width="6" EndPos="98"/>
+      <labl>Household replicate weight 2</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT3" files="ExtractData" name="REPWT3" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="99" width="6" EndPos="104"/>
+      <labl>Household replicate weight 3</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT4" files="ExtractData" name="REPWT4" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="105" width="6" EndPos="110"/>
+      <labl>Household replicate weight 4</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT5" files="ExtractData" name="REPWT5" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="111" width="6" EndPos="116"/>
+      <labl>Household replicate weight 5</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT6" files="ExtractData" name="REPWT6" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="117" width="6" EndPos="122"/>
+      <labl>Household replicate weight 6</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT7" files="ExtractData" name="REPWT7" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="123" width="6" EndPos="128"/>
+      <labl>Household replicate weight 7</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT8" files="ExtractData" name="REPWT8" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="129" width="6" EndPos="134"/>
+      <labl>Household replicate weight 8</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT9" files="ExtractData" name="REPWT9" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="135" width="6" EndPos="140"/>
+      <labl>Household replicate weight 9</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT10" files="ExtractData" name="REPWT10" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="141" width="6" EndPos="146"/>
+      <labl>Household replicate weight 10</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT11" files="ExtractData" name="REPWT11" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="147" width="6" EndPos="152"/>
+      <labl>Household replicate weight 11</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT12" files="ExtractData" name="REPWT12" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="153" width="6" EndPos="158"/>
+      <labl>Household replicate weight 12</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT13" files="ExtractData" name="REPWT13" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="159" width="6" EndPos="164"/>
+      <labl>Household replicate weight 13</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT14" files="ExtractData" name="REPWT14" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="165" width="6" EndPos="170"/>
+      <labl>Household replicate weight 14</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT15" files="ExtractData" name="REPWT15" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="171" width="6" EndPos="176"/>
+      <labl>Household replicate weight 15</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT16" files="ExtractData" name="REPWT16" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="177" width="6" EndPos="182"/>
+      <labl>Household replicate weight 16</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT17" files="ExtractData" name="REPWT17" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="183" width="6" EndPos="188"/>
+      <labl>Household replicate weight 17</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT18" files="ExtractData" name="REPWT18" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="189" width="6" EndPos="194"/>
+      <labl>Household replicate weight 18</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT19" files="ExtractData" name="REPWT19" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="195" width="6" EndPos="200"/>
+      <labl>Household replicate weight 19</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT20" files="ExtractData" name="REPWT20" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="201" width="6" EndPos="206"/>
+      <labl>Household replicate weight 20</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT21" files="ExtractData" name="REPWT21" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="207" width="6" EndPos="212"/>
+      <labl>Household replicate weight 21</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT22" files="ExtractData" name="REPWT22" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="213" width="6" EndPos="218"/>
+      <labl>Household replicate weight 22</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT23" files="ExtractData" name="REPWT23" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="219" width="6" EndPos="224"/>
+      <labl>Household replicate weight 23</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT24" files="ExtractData" name="REPWT24" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="225" width="6" EndPos="230"/>
+      <labl>Household replicate weight 24</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT25" files="ExtractData" name="REPWT25" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="231" width="6" EndPos="236"/>
+      <labl>Household replicate weight 25</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT26" files="ExtractData" name="REPWT26" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="237" width="6" EndPos="242"/>
+      <labl>Household replicate weight 26</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT27" files="ExtractData" name="REPWT27" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="243" width="6" EndPos="248"/>
+      <labl>Household replicate weight 27</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT28" files="ExtractData" name="REPWT28" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="249" width="6" EndPos="254"/>
+      <labl>Household replicate weight 28</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT29" files="ExtractData" name="REPWT29" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="255" width="6" EndPos="260"/>
+      <labl>Household replicate weight 29</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT30" files="ExtractData" name="REPWT30" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="261" width="6" EndPos="266"/>
+      <labl>Household replicate weight 30</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT31" files="ExtractData" name="REPWT31" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="267" width="6" EndPos="272"/>
+      <labl>Household replicate weight 31</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT32" files="ExtractData" name="REPWT32" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="273" width="6" EndPos="278"/>
+      <labl>Household replicate weight 32</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT33" files="ExtractData" name="REPWT33" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="279" width="6" EndPos="284"/>
+      <labl>Household replicate weight 33</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT34" files="ExtractData" name="REPWT34" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="285" width="6" EndPos="290"/>
+      <labl>Household replicate weight 34</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT35" files="ExtractData" name="REPWT35" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="291" width="6" EndPos="296"/>
+      <labl>Household replicate weight 35</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT36" files="ExtractData" name="REPWT36" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="297" width="6" EndPos="302"/>
+      <labl>Household replicate weight 36</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT37" files="ExtractData" name="REPWT37" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="303" width="6" EndPos="308"/>
+      <labl>Household replicate weight 37</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT38" files="ExtractData" name="REPWT38" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="309" width="6" EndPos="314"/>
+      <labl>Household replicate weight 38</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT39" files="ExtractData" name="REPWT39" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="315" width="6" EndPos="320"/>
+      <labl>Household replicate weight 39</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT40" files="ExtractData" name="REPWT40" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="321" width="6" EndPos="326"/>
+      <labl>Household replicate weight 40</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT41" files="ExtractData" name="REPWT41" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="327" width="6" EndPos="332"/>
+      <labl>Household replicate weight 41</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT42" files="ExtractData" name="REPWT42" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="333" width="6" EndPos="338"/>
+      <labl>Household replicate weight 42</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT43" files="ExtractData" name="REPWT43" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="339" width="6" EndPos="344"/>
+      <labl>Household replicate weight 43</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT44" files="ExtractData" name="REPWT44" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="345" width="6" EndPos="350"/>
+      <labl>Household replicate weight 44</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT45" files="ExtractData" name="REPWT45" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="351" width="6" EndPos="356"/>
+      <labl>Household replicate weight 45</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT46" files="ExtractData" name="REPWT46" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="357" width="6" EndPos="362"/>
+      <labl>Household replicate weight 46</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT47" files="ExtractData" name="REPWT47" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="363" width="6" EndPos="368"/>
+      <labl>Household replicate weight 47</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT48" files="ExtractData" name="REPWT48" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="369" width="6" EndPos="374"/>
+      <labl>Household replicate weight 48</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT49" files="ExtractData" name="REPWT49" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="375" width="6" EndPos="380"/>
+      <labl>Household replicate weight 49</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT50" files="ExtractData" name="REPWT50" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="381" width="6" EndPos="386"/>
+      <labl>Household replicate weight 50</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT51" files="ExtractData" name="REPWT51" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="387" width="6" EndPos="392"/>
+      <labl>Household replicate weight 51</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT52" files="ExtractData" name="REPWT52" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="393" width="6" EndPos="398"/>
+      <labl>Household replicate weight 52</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT53" files="ExtractData" name="REPWT53" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="399" width="6" EndPos="404"/>
+      <labl>Household replicate weight 53</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT54" files="ExtractData" name="REPWT54" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="405" width="6" EndPos="410"/>
+      <labl>Household replicate weight 54</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT55" files="ExtractData" name="REPWT55" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="411" width="6" EndPos="416"/>
+      <labl>Household replicate weight 55</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT56" files="ExtractData" name="REPWT56" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="417" width="6" EndPos="422"/>
+      <labl>Household replicate weight 56</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT57" files="ExtractData" name="REPWT57" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="423" width="6" EndPos="428"/>
+      <labl>Household replicate weight 57</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT58" files="ExtractData" name="REPWT58" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="429" width="6" EndPos="434"/>
+      <labl>Household replicate weight 58</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT59" files="ExtractData" name="REPWT59" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="435" width="6" EndPos="440"/>
+      <labl>Household replicate weight 59</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT60" files="ExtractData" name="REPWT60" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="441" width="6" EndPos="446"/>
+      <labl>Household replicate weight 60</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT61" files="ExtractData" name="REPWT61" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="447" width="6" EndPos="452"/>
+      <labl>Household replicate weight 61</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT62" files="ExtractData" name="REPWT62" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="453" width="6" EndPos="458"/>
+      <labl>Household replicate weight 62</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT63" files="ExtractData" name="REPWT63" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="459" width="6" EndPos="464"/>
+      <labl>Household replicate weight 63</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT64" files="ExtractData" name="REPWT64" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="465" width="6" EndPos="470"/>
+      <labl>Household replicate weight 64</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT65" files="ExtractData" name="REPWT65" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="471" width="6" EndPos="476"/>
+      <labl>Household replicate weight 65</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT66" files="ExtractData" name="REPWT66" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="477" width="6" EndPos="482"/>
+      <labl>Household replicate weight 66</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT67" files="ExtractData" name="REPWT67" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="483" width="6" EndPos="488"/>
+      <labl>Household replicate weight 67</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT68" files="ExtractData" name="REPWT68" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="489" width="6" EndPos="494"/>
+      <labl>Household replicate weight 68</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT69" files="ExtractData" name="REPWT69" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="495" width="6" EndPos="500"/>
+      <labl>Household replicate weight 69</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT70" files="ExtractData" name="REPWT70" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="501" width="6" EndPos="506"/>
+      <labl>Household replicate weight 70</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT71" files="ExtractData" name="REPWT71" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="507" width="6" EndPos="512"/>
+      <labl>Household replicate weight 71</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT72" files="ExtractData" name="REPWT72" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="513" width="6" EndPos="518"/>
+      <labl>Household replicate weight 72</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT73" files="ExtractData" name="REPWT73" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="519" width="6" EndPos="524"/>
+      <labl>Household replicate weight 73</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT74" files="ExtractData" name="REPWT74" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="525" width="6" EndPos="530"/>
+      <labl>Household replicate weight 74</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT75" files="ExtractData" name="REPWT75" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="531" width="6" EndPos="536"/>
+      <labl>Household replicate weight 75</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT76" files="ExtractData" name="REPWT76" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="537" width="6" EndPos="542"/>
+      <labl>Household replicate weight 76</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT77" files="ExtractData" name="REPWT77" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="543" width="6" EndPos="548"/>
+      <labl>Household replicate weight 77</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT78" files="ExtractData" name="REPWT78" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="549" width="6" EndPos="554"/>
+      <labl>Household replicate weight 78</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT79" files="ExtractData" name="REPWT79" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="555" width="6" EndPos="560"/>
+      <labl>Household replicate weight 79</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="REPWT80" files="ExtractData" name="REPWT80" intrvl="contin" dcml="0" rectype="H">
+      <location StartPos="561" width="6" EndPos="566"/>
+      <labl>Household replicate weight 80</labl>
+      <txt><![CDATA[Extracts include the REPWT1-REPWT80 variables if users choose REPWT during the extract process.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="PERNUM" files="ExtractData" name="PERNUM" intrvl="contin" dcml="0" rectype="P">
+      <location StartPos="33" width="4" EndPos="36"/>
+      <labl>Person number in sample unit</labl>
+      <txt><![CDATA[PERNUM numbers all persons within each household consecutively in the order in which they appear on the original census or survey form. When combined with SAMPLE and SERIAL, PERNUM uniquely identifies each person within the IPUMS.]]></txt>
+      <codInstr><![CDATA[
+
+PERNUM is a 4-digit numeric variable which numbers all persons within each household consecutively in the order in which they appear on the original census or survey form. PERNUM specific variable codes for missing, edited, or unidentified observations, observations not applicable (N/A), observations not in universe (NIU), top and bottom value coding, etc. are provided below if applicable by Census year (and data sample if specified).]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="PERWT" files="ExtractData" name="PERWT" intrvl="contin" dcml="2" rectype="P">
+      <location StartPos="37" width="10" EndPos="46"/>
+      <labl>Person weight</labl>
+      <txt><![CDATA[PERWT indicates how many persons in the U.S. population are represented by a given person in an IPUMS sample. 
+
+It is generally a good idea to use PERWT when conducting a person-level analysis of any IPUMS sample. The use of PERWT is optional when analyzing one of the "flat" or unweighted IPUMS samples. Flat IPUMS samples include the 1% samples from 1850-1930, all samples from 1960, 1970, and 1980, the 1% unweighted samples from 1990 and 2000, the 10% 2010 sample, and any of the full count 100% census datasets. PERWT must be used to obtain nationally representative statistics for person-level analyses of any sample other than those.
+
+For further explanation of the sample weights, see "Sample Designs" [URL omitted from DDI.] and "Sample Weights" [URL omitted from DDI.]. See also HHWT for a corresponding variable at the household level, and SLWT for a weight variable used with sample-line records in 1940 and 1950.]]></txt>
+      <codInstr><![CDATA[
+PERWT is a 6-digit numeric variable which indicates how many persons in the U.S. population are represented by a given person in an IPUMS sample and has two implied decimals. For example, a PERWT value of 010461 should be interpreted as 104.61. PERWT specific variable codes for missing, edited, or unidentified observations, observations not applicable (N/A), observations not in universe (NIU), top and bottom value coding, etc. are provided below if applicable by Census year (and data sample if specified).
+
+PERWT Specific Variable Codes]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+  </dataDscr>
+</codeBook>
