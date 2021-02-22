@@ -15,10 +15,12 @@ pums_clean <- pums_raw %>%
   left_join(., puma_county_xwalk, by = c("statefip" = "state", "puma")) %>%
   left_join(., cpi, by = "year") %>%
   left_join(., hud_ami, by = c("stcnty_fips", "year")) %>%
+  mutate_at(vars(owncost), .funs = ~if_else(. == 99999, NA_real_, .)) %>% # Convert owner costs jam value to NA_real_ type
+  mutate_at(vars(rentgrs), .funs = ~if_else(ownershp != "Rented", NA_real_, .)) %>% # Make gross rent NA_real_ type if it's not rented
   mutate_at(vars(incss, incsupp, incwelfr, incother), .funs = ~if_else(. == 99999, NA_real_, .)) %>% # Convert income jam value to NA_real_ types
   mutate_at(vars(incwage, incbus00, incinvst, incretir), .funs = ~if_else(. == 999999, NA_real_, .)) %>% # Convert income jam value to NA_real_ types
   mutate_at(vars(inctot, hhincome), .funs = ~if_else(. == 9999999, NA_real_, .)) %>% # Convert income jam value to NA_real_ types
-  mutate_at(vars(inctot:incother, hhincome), .funs = list(adj = ~ . * inflation_factor_2019)) %>% # Create new variables and adjust them for inflation
+  mutate_at(vars(owncost:hhincome, inctot:incother), .funs = list(adj = ~ . * inflation_factor_2019)) %>% # Create new variables and adjust them for inflation
   mutate(mfi_coefficient = case_when(numprec == 1 ~ 0.7,
                                      numprec == 2 ~ 0.8,
                                      numprec == 3 ~ 0.9,
