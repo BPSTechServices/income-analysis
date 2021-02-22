@@ -1,5 +1,5 @@
 ## Variables to assist in coding
-pdxpumas <- c(1314, 1301, 1305, 1303, 1302) # east county: 1316
+pdxpumas <- c(1314, 1301, 1305, 1303, 1302, 1304) # east county: 1316
 
 # Which Group Quarters to include
 gq_filter <- c("Households under 1970 definition", "Additional households under 1990 definition",

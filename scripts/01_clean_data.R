@@ -11,17 +11,6 @@
 ## Source the import data script to load libraries, clear memory and import files used for use in this analysis
 source("scripts/00_import_data.R")
 
-mutate(AGE = AGE - 1,
-       INCTOT = if_else(INCTOT == 9999999, NA_real_, INCTOT * inflation_factor_2018),
-       INCWAGE = if_else(INCWAGE == 999999, NA_real_, INCWAGE * inflation_factor_2018),
-       INCBUS00 = if_else(INCBUS00 == 999999, NA_real_, INCBUS00 * inflation_factor_2018),
-       INCSS = if_else(INCSS == 99999, NA_real_, INCSS * inflation_factor_2018),
-       INCINVST = if_else(INCINVST == 999999, NA_real_, INCINVST * inflation_factor_2018),
-       INCRETIR = if_else(INCRETIR == 999999, NA_real_, INCRETIR * inflation_factor_2018),
-       INCSUPP = if_else(INCSUPP == 99999, NA_real_, INCSUPP * inflation_factor_2018),
-       INCWELFR = if_else(INCWELFR == 99999, NA_real_, INCWELFR * inflation_factor_2018),
-       INCOTHER = if_else(INCOTHER == 99999, NA_real_, INCOTHER * inflation_factor_2018),)
-
 pums_clean <- pums_raw %>%
   left_join(., puma_county_xwalk, by = c("statefip" = "state", "puma")) %>%
   left_join(., cpi, by = "year") %>%
@@ -50,45 +39,48 @@ pums_clean <- pums_raw %>%
                                race == "Other race, nec" ~ "Another race",
                                race %in% c("Two major races", "Three or more major races") ~ "Multi-racial",
                                T ~ NA_character_)) %>%
-  mutate_at(vars(year, puma, rachisp:race1_rec), as.factor) %>%
-  left_join(., repwt_raw, by = c("sample", "serial", "pernum"))
+  mutate_at(vars(year, puma, rachisp:race1_rec), as.factor) %>% # TODO Convert all relevant variables to factors for ease of use with survey object 
+  left_join(., repwt_raw, by = c("sample", "serial", "pernum"))  %>% # Join the replicate weights to the end of the data
+  rename_at(.vars = vars(repwt1:repwt80), .funs = ~ paste("WGTP", seq(1:80), sep = "")) %>% # Rename columns to be consistent with Census PUMS to use tidycensus features
+  rename_at(.vars = vars(repwtp1:repwtp80), .funs = ~ paste0("PWGTP", seq(1:80), sep = "")) %>% # Rename columns to be consistent with Census PUMS to use tidycensus features
+  rename(PWGTP = perwt, WGTP = hhwt, SERIALNO = cbserial, PUMA = puma) %>%  # Rename columns to be consistent with Census PUMS to use tidycensus features
+  select(-c(repwt, repwtp)) # Unnecessary and causes me confusion ... 
 
+## Create replicate design (repd) survey object of all persons from cleaned data
+## Use tidycensus::to_survey to make a survey object. Requires appropriate variable names
+p_repd <- pums_clean %>% 
+  select(-c(WGTP1:WGTP80)) %>% 
+  tidycensus::to_survey(type = "person", 
+                        class = "srvyr", 
+                        design = "rep_weights")
 
-## Create survey object of households in Portland from cleaned data
-h_repd <- pums_clean %>%
-  select(-c(repwtp:repwtp80)) %>% # Remove person weights !! IMPORTANT !!
-  filter(pernum == 1, # Select householder
-         met2013 == 38900, # Keep only Portland MSA
-         ) %>% 
-  as_survey_rep(weights = "hhwt",
-                repweights = starts_with("repwt"),
-                combined_weights = T,
-                type = "JK1",
-                scale = 4/80,
-                rscales = ncol('repwt[0-9]+'))
+## TODO Consider joining vacant dataset prior to creating survey design object
+## Create replicate design (repd) survey object of households from cleaned data
+## NOTE: Will produce duplicate values warning, but it's because duplicate SERIALNO exist across years. Must be sure to group_by year in analysis.
+h_repd <- pums_clean %>% 
+  filter(pernum == 1) %>% 
+  select(-c(PWGTP1:PWGTP80)) %>%
+  tidycensus::to_survey(type = "housing", 
+                        class = "srvyr", 
+                        design = "rep_weights")
 
-## Example data summary (income category by year and tenure)
-lowincome_by_year_tenure <- h_repd %>%
-  group_by(year, is_low_income, ownershp) %>%
-  summarize(hh = survey_total(),
-            n = unweighted(n())) %>% ungroup() %>% 
-  mutate(cv = hh_se / hh,
-         moe = hh_se * 1.645) #%>% clipr::write_clip() # uncomment to write the table to clipboard to paste into excel
+######## Explicit ways to define survey objects. ##########
+## Same as above but very explicit. NOTE: I refer to the un-renamed repwt in this scope
+# p_object <- pums_clean %>% select(-c(repwt:repwt80))
+# p_repd <- survey::svrepdesign(variables = p_object[, !names(p_object) %in% c(paste("repwtp", seq(1:80), sep = ""), "repwtp")], 
+#                               weights = p_object$perwt, 
+#                               repweights = p_object %>% select(paste("repwtp", seq(1:80), sep = "")), 
+#                               scale = 4/80, 
+#                               rscales = rep(1, 80), 
+#                               mse = TRUE, type = "JK1") %>%
+#   srvyr::as_survey()
 
-## Graph the summarized example data
-lowincome_by_year_tenure %>%
-  filter(!is.na(is_low_income)) %>%
-  mutate(year = as.numeric(as.character(year)),
-         is_low_income = if_else(is_low_income, "Low income", "Moderate income +")) %>%
-  ggplot(aes(x = year, y = hh)) +
-  geom_line(size = 2) +
-  geom_ribbon(aes(ymax= hh+moe, ymin=hh-moe), 
-              alpha=0.2) +
-  facet_grid(ownershp~is_low_income, scales = "free_y") +
-  scale_y_continuous(labels=scales::comma_format()) +
-  theme_minimal() +
-  labs(title = "Trend in number of households by tenure and income category",
-       subtitle = "Portland MSA, 2006 - 2019",
-       x = "Year",
-       y = "Number of Households",
-       caption = "Source: University of Minnesota, IPUMS-USA; American Community Survey 1-year estimates.\nAnalysis by Portland Bureau of Planning & Sustainability (BPS) and Portland Housing Bureau (PHB).")
+## Same as above but very explicit. NOTE: I refer to the un-renamed repwt in this scope
+# h_object <- pums_clean %>% filter(pernum == 1) %>% select(-c(repwtp:repwtp80))
+# h_repd <- survey::svrepdesign(variables = h_object[, !names(h_object) %in% c(paste("repwt", seq(1:80), sep = ""), "repwt")], 
+#                               weights = h_object$hhwt, 
+#                               repweights = h_object %>% select(paste("repwt", seq(1:80), sep = "")), 
+#                               scale = 4/80, 
+#                               rscales = rep(1, 80), 
+#                               mse = TRUE, type = "JK1") %>%
+#   srvyr::as_survey()

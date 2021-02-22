@@ -1,5 +1,5 @@
 ##### Load libraries, set working directory #####
-pacman::p_load(tidyverse, data.table, srvyr, ipumsr, rio, janitor, clipr)
+pacman::p_load(tidyverse, data.table, srvyr, ipumsr, rio, janitor, clipr, tidycensus)
 
 options(
   scipen = 999, # remove scientific notation
@@ -70,7 +70,7 @@ repwt_raw <- rbind(
   read_ipums_micro(read_ipums_ddi("data/raw/usa_00123.xml")) ## 2006-2009
 ) %>% select(-c(YEAR, CBSERIAL, STRATA, HHWT, CLUSTER, STATEFIP, GQ, PERWT)) %>%
   mutate_at(vars(SAMPLE, SERIAL, PERNUM), as.numeric) %>%
-  janitor::clean_names()
+  janitor::clean_names() 
 
 ## Import the PUMS microdata 2006-2019 income demographic estimates for OR and WA
 pums_raw <- read_ipums_micro(read_ipums_ddi("data/raw/usa_00120.xml")) %>%
