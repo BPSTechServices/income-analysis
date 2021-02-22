@@ -1,6 +1,6 @@
 # City of Portland Income Analysis
 
-This analysis is a collaboration between the [Bureau of Planning and Sustainability (BPS)](https://www.portlandoregon.gov/bps/) and [Portland Housing Bureau (PHB)](https://www.portland.gov/phb. It attempts to replicate the PUMS-derived data from [Seattle's Displacement Risk Indicators](https://population-and-demographics-seattlecitygis.hub.arcgis.com/pages/displacement-risk).
+This analysis is a collaboration between the [Bureau of Planning and Sustainability (BPS)](https://www.portlandoregon.gov/bps/) and [Portland Housing Bureau (PHB)](https://www.portland.gov/phb). It attempts to replicate the PUMS-derived data from [Seattle's Displacement Risk Indicators](https://population-and-demographics-seattlecitygis.hub.arcgis.com/pages/displacement-risk).
 
 Their analysis produces citywide income estimates, similar to CHAS data, including the following tables:
 
