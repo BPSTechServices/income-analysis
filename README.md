@@ -1,6 +1,6 @@
 # City of Portland Income Analysis
 
-This analysis attempts to replicate the PUMS-derived data from [Seattle's Displacement Risk Indicators](https://population-and-demographics-seattlecitygis.hub.arcgis.com/pages/displacement-risk)
+This analysis attempts to replicate the PUMS-derived data from [Seattle's Displacement Risk Indicators](https://population-and-demographics-seattlecitygis.hub.arcgis.com/pages/displacement-risk).
 
 Their analysis produces citywide income estimates, similar to CHAS data, including the following tables:
 
